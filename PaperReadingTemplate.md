@@ -3,8 +3,13 @@ _/50
 
 ## Paper Information
 #### Paper Title : 
+
 #### Conference : 
+
 #### Authors and Institutation
+
+#### Network Stucture
+![](https://raw.githubusercontent.com/zhixuanli/segmentation-paper-reading-notes/master/images-folder/*.png)
 
 ## Five questions about this paper:
 
@@ -16,16 +21,24 @@ _/50
 
 
 ### 3. Details about the experiment
-+ Which Dataset is used?
++ **Which Datasets are used?**
 
 
-+ How is the experiment set up?
+
++ **How is the experiment set up?**
 
 
-+ （Optional）How to divide training data and test data？
+
++ **What's the evaluation metric?**
 
 
-+ （Optional）What is the ranking of the experiment results?
+
++ **（Optional）How to divide training data and test data？**
+
+
+
++ **（Optional）What is the ranking of the experiment results?**
+
 
 
 ### 4. Advantages (self-summary rather than the author's)
