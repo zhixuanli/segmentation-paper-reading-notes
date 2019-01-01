@@ -8,7 +8,8 @@ segmentation paper reading notes
 
 ## CATALOG
 1. [Summary of the semantic segmentation datasets](https://github.com/zhixuanli/segmentation-paper-reading-notes/blob/master/Summary%20of%20the%20semantic%20segmentation%20datasets.md)
-2. [语义分割-知识点总结](https://github.com/zhixuanli/segmentation-paper-reading-notes/blob/master/语义分割-知识点总结.md)
+2. [Paper Reading Template](https://github.com/zhixuanli/segmentation-paper-reading-notes/blob/master/paper-reading-notes/PaperReadingTemplate.md)
+3. [语义分割-知识点总结](https://github.com/zhixuanli/segmentation-paper-reading-notes/blob/master/语义分割-知识点总结.md)
 	+ [Depthwise separable convolution](https://github.com/zhixuanli/segmentation-paper-reading-notes/blob/master/语义分割-知识点总结.md#1-depthwise-separable-convolution)
 	+ [atrous convolution 带洞卷积](https://github.com/zhixuanli/segmentation-paper-reading-notes/blob/master/语义分割-知识点总结.md#2-atrous-convolution-带洞卷积)
 	+ [Spatial pyramid pooling](https://github.com/zhixuanli/segmentation-paper-reading-notes/blob/master/语义分割-知识点总结.md#3-spatial-pyramid-pooling)
@@ -16,4 +17,4 @@ segmentation paper reading notes
 
 ## PROGRESS
 
-1. [01-DeepLab(V3+)-Encoder-Decoder with Atrous Separable Convolution for Semantic Image Segmentation](https://github.com/zhixuanli/segmentation-paper-reading-notes/blob/master/01-DeepLabV3%2B.md)
+1. [01-DeepLab(V3+)-Encoder-Decoder with Atrous Separable Convolution for Semantic Image Segmentation](https://github.com/zhixuanli/segmentation-paper-reading-notes/blob/master/paper-reading-notes/01-DeepLabV3%2B.md)

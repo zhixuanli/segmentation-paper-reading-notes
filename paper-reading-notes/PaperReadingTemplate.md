@@ -17,7 +17,7 @@ _/50
 
 
 
-### 2. [Contribution] What method is used in this paper? 
+### 2. [Contribution] What's new in this paper? 
 
 
 ### 3. Details about the experiment
