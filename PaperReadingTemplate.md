@@ -21,24 +21,22 @@ _/50
 
 
 ### 3. Details about the experiment
-+ **Which Datasets are used?**
+#### 3.1 Which Datasets are used?
+
+
+#### 3.2 How is the experiment set up?
 
 
 
-+ **How is the experiment set up?**
+#### 3.3 What's the evaluation metric?
 
 
 
-+ **What's the evaluation metric?**
+#### 3.4 (Optional）How to divide training data and test data？
 
 
 
-+ **（Optional）How to divide training data and test data？**
-
-
-
-+ **（Optional）What is the ranking of the experiment results?**
-
+#### 3.5 (Optional）What is the ranking of the experiment results?
 
 
 ### 4. Advantages (self-summary rather than the author's)
