@@ -1,4 +1,4 @@
-# paper-reading-notes
+# Paper-reading-notes
 segmentation paper reading notes
 
 ## Semantic segmentation paper list reference: 
@@ -6,7 +6,7 @@ segmentation paper reading notes
 2. [arXiv Search result](https://arxiv.org/search/advanced?advanced=&terms-0-operator=AND&terms-0-term=Semantic+Segmentation&terms-0-field=title&classification-computer_science=y&classification-physics_archives=all&classification-include_cross_list=include&date-filter_by=all_dates&date-year=&date-from_date=&date-to_date=&date-date_type=submitted_date&abstracts=show&size=50&order=-announced_date_first)
 3. [A collection of AWESOME things about domian adaptation](https://github.com/zhaoxin94/awsome-domain-adaptation#semantic-segmentation)
 
-## CATALOG
+## CATALOGS
 1. [Summary of the semantic segmentation datasets](https://github.com/zhixuanli/segmentation-paper-reading-notes/blob/master/Summary%20of%20the%20semantic%20segmentation%20datasets.md)
 2. [Paper Reading Template](https://github.com/zhixuanli/segmentation-paper-reading-notes/blob/master/paper-reading-notes/PaperReadingTemplate.md)
 3. [语义分割-知识点总结](https://github.com/zhixuanli/segmentation-paper-reading-notes/blob/master/语义分割-知识点总结.md)
