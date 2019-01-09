@@ -20,7 +20,7 @@ The 11318 images in the SBD are divided into 8498 training images and 2820 test 
 
 + Download Link: [https://www.dropbox.com/s/oeu149j8qtbs1x0/SegmentationClassAug.zip?dl=0](https://www.dropbox.com/s/oeu149j8qtbs1x0/SegmentationClassAug.zip?dl=0)  
 + This download link is provided by: [https://github.com/DrSleep/tensorflow-deeplab-resnet](https://github.com/DrSleep/tensorflow-deeplab-resnet)
-+ [How to use 10,582 trainaug images on DeeplabV3 code?](https://www.sun11.me/blog/2018/how-to-use-10582-trainaug-images-on-DeeplabV3-code/)
++ [How to use 10,582 train-aug images on DeeplabV3 code?](https://www.sun11.me/blog/2018/how-to-use-10582-trainaug-images-on-DeeplabV3-code/)
 
 ## 4. The COCO-Stuff dataset
 
@@ -40,3 +40,12 @@ The 11318 images in the SBD are divided into 8498 training images and 2820 test 
 PASCAL-Context dataset augments PASCAL VOC 2010 dataset with annotations for 400+ additional categories. The dataset contains semantic segmentation annotations for 10,103 images in the Training and Validation subsets of PASCAL VOC 2010 dataset. 
 
 The previous annotations covered around 29% of pixels in the dataset, while ours covers 100% of pixels. The dataset contains annotations for things (e.g., keyboard, fork), stuff (e.g., sky, water) and hybrids (e.g., road) that have clear boundaries, but their shape is more complex than the shape of things.
+
+## 6. Cityscapes Datasets
++ Paper: [The cityscapes dataset for semanticurban scene understanding](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Cordts_The_Cityscapes_Dataset_CVPR_2016_paper.pdf)
++ Main page: [https://www.cityscapes-dataset.com](https://www.cityscapes-dataset.com)
+
+### Details
++ 30 classes
++ 5000 annotated images with fine annotations
++ 20000 annotated images with coarse annotations

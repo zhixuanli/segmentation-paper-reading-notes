@@ -6,15 +6,15 @@
 [Encoder-Decoder with Atrous Separable Convolution for Semantic Image Segmentation](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=3&cad=rja&uact=8&ved=2ahUKEwik37fbi8zfAhXzOn0KHYpTCzQQFjACegQICBAB&url=https%3A%2F%2Farxiv.org%2Fabs%2F1802.02611&usg=AOvVaw0pOEX9DfWqpHvfnCjdywuy)
 #### Conference : 
 ECCV 2018
-#### Authors and Institutation
+#### Authors and Institution
 Liang-Chieh Chen, Yukun Zhu, George Papandreou, Florian Schro, Hartwig Adam
 
 Google Inc.
 
-#### Offical codes:
+#### Official codes:
 [https://github.com/tensorflow/models/tree/master/research/deeplab](https://github.com/tensorflow/models/tree/master/research/deeplab)
 
-#### Network Stucture
+#### Network Structure
 ![DeepLabv3+](https://raw.githubusercontent.com/zhixuanli/segmentation-paper-reading-notes/master/images-folder/deeplabv3+_1.png)
 
 ## Five questions about this paper:
@@ -35,7 +35,7 @@ Google Inc.
 ### 3. Details about the experiment
 #### 3.1 Which Datasets are used?
 
-PASCAL VOC 2012 and Cityscapes datasts
+PASCAL VOC 2012 and Cityscapes datasets
 
 #### 3.2 How is the experiment set up?
 
