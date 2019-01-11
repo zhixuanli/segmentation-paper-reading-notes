@@ -6,16 +6,16 @@ _/50
 
 #### Conference : 
 
-#### Authors and Institutation
+#### Authors and Institution
 
-#### Offical Codes
+#### Official Codes
 
-#### Network Stucture
+#### Network Structure
 ![](https://raw.githubusercontent.com/zhixuanli/segmentation-paper-reading-notes/master/images-folder/*.png)
 
 ## Five questions about this paper:
 
-### 1. [Problem Definition] What problem does this paper try to solve? 
+### 1. [Problem Definition] What problem is this paper trying to solve? 
 
 
 

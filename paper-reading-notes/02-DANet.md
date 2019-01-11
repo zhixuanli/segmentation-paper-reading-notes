@@ -35,7 +35,7 @@ self-attention, Scene Segmentation
 
 ## Five questions about this paper:
 
-### 1. [Problem Definition] What problem does this paper try to solve? 
+### 1. [Problem Definition] What problem is this paper trying to solve? 
 State-of-the-art methods based on FCNs, which utilize multi-scale context information but mining the relationship between different objects and stuffs are lacking.
 
 In the same time, capturing the global relationship by employing LSTM or RNN will heavily rely on the learning outcome of the long-term memorization.
@@ -63,7 +63,7 @@ Context The dataset provides detailed semantic labels for whole scenes, which co
 The dataset contains 9,000 images for training and 1,000 images for testing. 
 
 #### 3.2 How is the experiment set up?
-Ablation studies are performed here.
+##### 3.2.1 Ablation studies are performed here.
 + Using dilated FCNs as the baseline, the ablation study determines the improvement of attention module.
 
 ![](https://raw.githubusercontent.com/zhixuanli/segmentation-paper-reading-notes/master/images-folder/DANET-exp1.png)
@@ -76,13 +76,17 @@ Ablation studies are performed here.
 
 ![](https://raw.githubusercontent.com/zhixuanli/segmentation-paper-reading-notes/master/images-folder/DANET-exp2.png)
 
-And we will surprised to know that these strategies could improve so much performance!
+And I'm surprised to know that these strategies could improve so much performance!
 
 #### 3.3 What's the evaluation metric?
 Mean IoU
 
 #### 3.5 (Optional）What is the ranking of the experiment results?
 "DANet outperforms existing approaches with dominantly advantage!"
+
+But actually the performance is **not better than DeepLab V3+**.
+
+![](https://raw.githubusercontent.com/zhixuanli/segmentation-paper-reading-notes/master/images-folder/DANET-exp3.png)
 
 But the Deeplabv3+ (the best in deeplab series) is published almost half a year before the DANet, and they are not compared in this paper.
 

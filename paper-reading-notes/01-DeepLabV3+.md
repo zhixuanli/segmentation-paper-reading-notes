@@ -19,7 +19,7 @@ Google Inc.
 
 ## Five questions about this paper:
 
-### 1. [Problem Definition] What problem does this paper try to solve? 
+### 1. [Problem Definition] What problem is this paper trying to solve? 
 
 1. Details recovered from the low resolution feature of the decoder output are not good enough when employing the DeepLab V3 model.
 2. The DeepLabv3 is not very fast at the inference procedure.
