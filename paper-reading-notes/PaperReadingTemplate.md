@@ -2,20 +2,28 @@
 _/50
 
 ## Paper Information
-#### Paper Title : []() 
+#### Paper Title : 
+[]() 
 
 #### Conference : 
 
-#### Authors and Institution
+
+#### Authors and Institutions
+##### Authors
+
+
+##### Institutions
+
 
 #### Official Codes
+
 
 #### Network Structure
 ![](https://raw.githubusercontent.com/zhixuanli/segmentation-paper-reading-notes/master/images-folder/*.png)
 
 ## Five questions about this paper:
 
-### 1. [Problem Definition] What problem is this paper trying to solve? 
+### 1. [Problem Definition / Motivation] What problem is this paper trying to solve? 
 
 
 

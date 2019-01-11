@@ -17,5 +17,8 @@
 
 ## PROGRESS
 
-1. [01-DeepLab(V3+)-Encoder-Decoder with Atrous Separable Convolution for Semantic Image Segmentation](https://github.com/zhixuanli/segmentation-paper-reading-notes/blob/master/paper-reading-notes/01-DeepLabV3%2B.md)
-2. [02-DANet-Dual Attention Network for Scene Segmentation](https://github.com/zhixuanli/segmentation-paper-reading-notes/blob/master/paper-reading-notes/02-DANet.md)
+| Index  |  Net Name | Conference | Paper Title & Note Link |
+| :----: | :-------: | :--------: | :---------------------: |
+| 01 | DeepLabV3+ | ECCV 2018 | [Encoder-Decoder with Atrous Separable Convolution for Semantic Image Segmentation](https://github.com/zhixuanli/segmentation-paper-reading-notes/blob/master/paper-reading-notes/01-DeepLabV3%2B.md) |
+| 02 | DAnet | AAAI 2019 | [Dual Attention Network for Scene Segmentation](https://github.com/zhixuanli/segmentation-paper-reading-notes/blob/master/paper-reading-notes/02-DANet.md) |
+
