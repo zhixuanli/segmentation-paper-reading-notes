@@ -60,6 +60,8 @@ The previous annotations covered around 29% of pixels in the dataset, while ours
 
 This dataset is originated from PASCAL VOC12 (Everingham et al. ) and extended annotations from SDS (Hariharan et al. ). The set of 20 classes in PASCAL VOC12 is divided into four sub-datasets as indicated in Table 2. Three sub-datasets are used as the training label-set $L_{train}$, the left one sub-dataset is utilized for test label-set $L_{test}$.
 
-![](https://raw.githubusercontent.com/zhixuanli/segmentation-paper-reading-notes/master/images-folder/PASCAL-5i.png)
+<div  align="center">    
+<img src="https://raw.githubusercontent.com/zhixuanli/segmentation-paper-reading-notes/master/images-folder/PASCAL-5i.png" width="60%" height="60%" />
+</div>
 
 The training set $D_{train}$ is composed of all image-mask pairs from PASCAL VOC12 and SDS training sets that include at least one pixel in the segmentation mask from the label-set $L_{train}$. The masks in $D_{train}$ are modified into binary masks by setting pixels whose semantic class are not in $L_{train}$ as background class l. The test set $D_{test}$ is from PASCAL VOC12 and SDS validation sets, and the processing procedure for test set $D_{test}$ is similar with training set $D_{train}$.
