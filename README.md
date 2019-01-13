@@ -7,7 +7,7 @@
 3. [A collection of AWESOME things about domain adaptation](https://github.com/zhaoxin94/awsome-domain-adaptation#semantic-segmentation)
 
 ## CATALOGS
-1. [Summary of the semantic segmentation datasets](https://github.com/zhixuanli/segmentation-paper-reading-notes/blob/master/Summary%20of%20the%20semantic%20segmentation%20datasets.md)
+1. [Summary of the semantic segmentation datasets](https://github.com/zhixuanli/segmentation-paper-reading-notes/blob/master/others/Summary%20of%20the%20semantic%20segmentation%20datasets.md#summary-of-the-semantic-segmentation-datasets)
 2. [Paper Reading Template](https://github.com/zhixuanli/segmentation-paper-reading-notes/blob/master/paper-reading-notes/PaperReadingTemplate.md)
 3. [语义分割-知识点总结](https://github.com/zhixuanli/segmentation-paper-reading-notes/blob/master/语义分割-知识点总结.md)
 	+ [Depth-wise separable convolution](https://github.com/zhixuanli/segmentation-paper-reading-notes/blob/master/语义分割-知识点总结.md#1-depthwise-separable-convolution)
