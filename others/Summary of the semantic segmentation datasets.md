@@ -1,3 +1,4 @@
+[TOC]
 # Summary of the semantic segmentation datasets
 
 ## 1. PASCAL VOC 2012
@@ -45,7 +46,20 @@ The previous annotations covered around 29% of pixels in the dataset, while ours
 + Paper: [The cityscapes dataset for semanticurban scene understanding](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Cordts_The_Cityscapes_Dataset_CVPR_2016_paper.pdf)
 + Main page: [https://www.cityscapes-dataset.com](https://www.cityscapes-dataset.com)
 
-### Details
+**Details:**
+
 + 30 classes
 + 5000 annotated images with fine annotations
 + 20000 annotated images with coarse annotations
+
+## 7. PASCAL-$5^i$ (for shot learning)
++ Paper: [One-shot learning for semantic segmentation](https://arxiv.org/abs/1709.03410)
++ Main Page: [https://github.com/lzzcd001/OSLSM](https://github.com/lzzcd001/OSLSM)
+
+**The following description are from [Attention-based Multi-Context Guiding for Few-Shot Semantic Segmentation](https://www.google.com.hk/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=2ahUKEwijz7mQsOrfAhVVUd4KHYsXCfUQFjAAegQIAhAC&url=https%3A%2F%2Fpdfs.semanticscholar.org%2F1216%2Feebb5a407b40eb46596073f0fd229acaea48.pdf&usg=AOvVaw2z0pB6k3R4zdgLhFZiQcFM)**
+
+This dataset is originated from PASCAL VOC12 (Everingham et al. ) and extended annotations from SDS (Hariharan et al. ). The set of 20 classes in PASCAL VOC12 is divided into four sub-datasets as indicated in Table 2. Three sub-datasets are used as the training label-set $L_{train}$, the left one sub-dataset is utilized for test label-set $L_{test}$.
+
+![](https://raw.githubusercontent.com/zhixuanli/segmentation-paper-reading-notes/master/images-folder/PASCAL-5i.png)
+
+The training set $D_{train}$ is composed of all image-mask pairs from PASCAL VOC12 and SDS training sets that include at least one pixel in the segmentation mask from the label-set $L_{train}$. The masks in $D_{train}$ are modified into binary masks by setting pixels whose semantic class are not in $L_{train}$ as background class l. The test set $D_{test}$ is from PASCAL VOC12 and SDS validation sets, and the processing procedure for test set $D_{test}$ is similar with training set $D_{train}$. Our evaluation mIoU is the average of 5 sub-dataset mIoUs. For a fair comparison with (Shaban et al. 2017), we take the same random seed and sample N=1000 examples for testing each of our models.

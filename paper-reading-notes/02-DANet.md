@@ -31,7 +31,7 @@ CASIA IVA (中科院自动化所)
 Adopting self-attention mechanism, which essentially means to use weighted summation at all positions to update each certain position, to capture the relationship between different positions and channels. 
 
 ### Keywords
-self-attention, Scene Segmentation
+self-attention, position and channel attention, Scene Segmentation
 
 ## Five questions about this paper:
 
