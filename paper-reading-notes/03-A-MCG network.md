@@ -20,13 +20,23 @@ AAAI 2019
 NO 
 
 #### Network Structure
-![](https://raw.githubusercontent.com/zhixuanli/segmentation-paper-reading-notes/master/images-folder/A-MCG-network.png)
+
+<center>
+<img src="https://raw.githubusercontent.com/zhixuanli/segmentation-paper-reading-notes/master/images-folder/A-MCG-network.png" width="100%" height="100%" />
+</center>
+
 
 Conv-LSTM module:
-![](https://raw.githubusercontent.com/zhixuanli/segmentation-paper-reading-notes/master/images-folder/A-MCG-network-conv-lstm.png)
+
+<center>
+<img src="https://raw.githubusercontent.com/zhixuanli/segmentation-paper-reading-notes/master/images-folder/A-MCG-network-conv-lstm.png" width="70%" height="70%" />
+</center>
 
 RAM module:
-![](https://raw.githubusercontent.com/zhixuanli/segmentation-paper-reading-notes/master/images-folder/A-MCG-network-RAM.png)
+
+<center>
+<img src="https://raw.githubusercontent.com/zhixuanli/segmentation-paper-reading-notes/master/images-folder/A-MCG-network-RAM.png" width="70%" height="70%" />
+</center>
 
 ## Five questions about this paper:
 
@@ -63,21 +73,29 @@ The ablation study in this paper is very intact.
 	+ fusion width. Fusion width is the channel number in the MCG branch
 	+ multi-context pattern: For example, context-45 means that only features from Res-4, Res-5 are used for fusion.
 
-![](https://raw.githubusercontent.com/zhixuanli/segmentation-paper-reading-notes/master/images-folder/A-MCG-exp1.png)
+<center>
+<img src="https://raw.githubusercontent.com/zhixuanli/segmentation-paper-reading-notes/master/images-folder/A-MCG-exp1.png" width="50%" height="50%" />
+</center>
 
 2. Attention Mechanism
 	+ Spatial Attention: RAM method
 	+ Channel Attention: SENet (Hu, Shen, and Sun 2018)
 
-![](https://raw.githubusercontent.com/zhixuanli/segmentation-paper-reading-notes/master/images-folder/A-MCG-exp2.png)
+<center>
+<img src="https://raw.githubusercontent.com/zhixuanli/segmentation-paper-reading-notes/master/images-folder/A-MCG-exp2.png" width="50%" height="50%" />
+</center>
 
 3. Conv-LSTM
 
-![](https://raw.githubusercontent.com/zhixuanli/segmentation-paper-reading-notes/master/images-folder/A-MCG-exp3.png)
+<center>
+<img src="https://raw.githubusercontent.com/zhixuanli/segmentation-paper-reading-notes/master/images-folder/A-MCG-exp3.png" width="50%" height="50%" />
+</center>
 
 #### 3.5 Experiment Results
 
-![](https://raw.githubusercontent.com/zhixuanli/segmentation-paper-reading-notes/master/images-folder/A-MCG-exp4.png)
+<center>
+<img src="https://raw.githubusercontent.com/zhixuanli/segmentation-paper-reading-notes/master/images-folder/A-MCG-exp4.png" width="60%" height="60%" />
+</center>
 
 baseline: ResNet101-FCN
 
@@ -85,7 +103,9 @@ baseline: ResNet101-FCN
 
 1. Using Conv-LSTM as the fusion method is better:
 
-![](https://raw.githubusercontent.com/zhixuanli/segmentation-paper-reading-notes/master/images-folder/A-MCG-exp5.png)
+<center>
+<img src="https://raw.githubusercontent.com/zhixuanli/segmentation-paper-reading-notes/master/images-folder/A-MCG-exp5.png" width="80%" height="80%" />
+</center>
 
 2. Multi level merging is common, but useful here.
 3. Channel attention is not very helpful, and sometime will decrease the performance. But spatial attention is benifitial here.

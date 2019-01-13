@@ -19,7 +19,9 @@ CASIA IVA (中科院自动化所)
 #### Network Structure
 ![](https://raw.githubusercontent.com/zhixuanli/segmentation-paper-reading-notes/master/images-folder/DANET-1.png)
 
-![](https://raw.githubusercontent.com/zhixuanli/segmentation-paper-reading-notes/master/images-folder/DANET-2.png)
+<center>
+<img src="https://raw.githubusercontent.com/zhixuanli/segmentation-paper-reading-notes/master/images-folder/DANET-2.png" width="80%" height="80%" />
+</center>
 
 #### Some reference to comprehend this paper
 + [双重注意力网络：中科院自动化所提出新的自然场景图像分割框架（附源码）](https://www.jiqizhixin.com/articles/091204)
@@ -66,7 +68,10 @@ The dataset contains 9,000 images for training and 1,000 images for testing.
 ##### 3.2.1 Ablation studies are performed here.
 + Using dilated FCNs as the baseline, the ablation study determines the improvement of attention module.
 
-![](https://raw.githubusercontent.com/zhixuanli/segmentation-paper-reading-notes/master/images-folder/DANET-exp1.png)
+<center>
+<img src="https://raw.githubusercontent.com/zhixuanli/segmentation-paper-reading-notes/master/images-folder/DANET-exp1.png" width="80%" height="80%" />
+</center>
+
 
 + Ablation study for improvement strategies: 
 
@@ -74,7 +79,9 @@ The dataset contains 9,000 images for training and 1,000 images for testing.
 	+ (2) Multi-Grid: we apply employ a hierarchyof grids of different sizes in the last ResNet block. 
 	+ (3) MS: We average the segmentation probability maps from 6 imagescales (0.75 1 1.25 1.5 1.75 2) for inference.
 
-![](https://raw.githubusercontent.com/zhixuanli/segmentation-paper-reading-notes/master/images-folder/DANET-exp2.png)
+<center>
+<img src="https://raw.githubusercontent.com/zhixuanli/segmentation-paper-reading-notes/master/images-folder/DANET-exp2.png" width="80%" height="80%" />
+</center>
 
 And I'm surprised to know that these strategies could improve so much performance!
 
@@ -86,7 +93,9 @@ Mean IoU
 
 But actually the performance is **not better than DeepLab V3+**.
 
-![](https://raw.githubusercontent.com/zhixuanli/segmentation-paper-reading-notes/master/images-folder/DANET-exp3.png)
+<center>
+<img src="https://raw.githubusercontent.com/zhixuanli/segmentation-paper-reading-notes/master/images-folder/DANET-exp3.png" width="120%" height="120%" />
+</center>
 
 But the Deeplabv3+ (the best in deeplab series) is published almost half a year before the DANet, and they are not compared in this paper.
 

@@ -19,7 +19,10 @@ _/50
 
 
 #### Network Structure
-![](https://raw.githubusercontent.com/zhixuanli/segmentation-paper-reading-notes/master/images-folder/*.png)
+
+<center>
+<img src="https://raw.githubusercontent.com/zhixuanli/segmentation-paper-reading-notes/master/images-folder/*.png" width="100%" height="100%" />
+</center>
 
 ## Five questions about this paper:
 

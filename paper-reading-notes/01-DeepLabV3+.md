@@ -15,7 +15,10 @@ Google Inc.
 [https://github.com/tensorflow/models/tree/master/research/deeplab](https://github.com/tensorflow/models/tree/master/research/deeplab)
 
 #### Network Structure
-![DeepLabv3+](https://raw.githubusercontent.com/zhixuanli/segmentation-paper-reading-notes/master/images-folder/deeplabv3+_1.png)
+
+<center>
+<img src="https://raw.githubusercontent.com/zhixuanli/segmentation-paper-reading-notes/master/images-folder/deeplabv3+_1.png" width="100%" height="100%" />
+</center>
 
 ## Five questions about this paper:
 
@@ -56,12 +59,17 @@ mIOU: pixel intersection-over-union averaged across all of the classes
 #### 3.5 (Optional）What is the ranking of the experiment results?
 ##### PASCAL VOC 2012 test set:
 
-![](https://raw.githubusercontent.com/zhixuanli/segmentation-paper-reading-notes/master/images-folder/deeplabv3+_pascalvoc12.png)
+<center>
+<img src="https://raw.githubusercontent.com/zhixuanli/segmentation-paper-reading-notes/master/images-folder/deeplabv3+_pascalvoc12.png" width="80%" height="80%" />
+</center>
 
 DeepLabv3+ (Xception-JFT) : 89.0
 
 ##### DeepLabv3+ on Cityscapes test set:
-![](https://raw.githubusercontent.com/zhixuanli/segmentation-paper-reading-notes/master/images-folder/deeplabv3+_cityscapes.png)
+
+<center>
+<img src="https://raw.githubusercontent.com/zhixuanli/segmentation-paper-reading-notes/master/images-folder/deeplabv3+_cityscapes.png" width="40%" height="40%" />
+</center>
 
 DeepLabv3+ : 82.1
 
