@@ -21,22 +21,22 @@ NO
 
 #### Network Structure
 
-<center>
+<div  align="center">    
 <img src="https://raw.githubusercontent.com/zhixuanli/segmentation-paper-reading-notes/master/images-folder/A-MCG-network.png" width="100%" height="100%" />
-</center>
+</div>
 
 
 Conv-LSTM module:
 
-<center>
+<div  align="center">    
 <img src="https://raw.githubusercontent.com/zhixuanli/segmentation-paper-reading-notes/master/images-folder/A-MCG-network-conv-lstm.png" width="70%" height="70%" />
-</center>
+</div>
 
 RAM module:
 
-<center>
+<div  align="center">    
 <img src="https://raw.githubusercontent.com/zhixuanli/segmentation-paper-reading-notes/master/images-folder/A-MCG-network-RAM.png" width="70%" height="70%" />
-</center>
+</div>
 
 ## Five questions about this paper:
 
@@ -73,29 +73,29 @@ The ablation study in this paper is very intact.
 	+ fusion width. Fusion width is the channel number in the MCG branch
 	+ multi-context pattern: For example, context-45 means that only features from Res-4, Res-5 are used for fusion.
 
-<center>
+<div  align="center">    
 <img src="https://raw.githubusercontent.com/zhixuanli/segmentation-paper-reading-notes/master/images-folder/A-MCG-exp1.png" width="50%" height="50%" />
-</center>
+</div>
 
 2. Attention Mechanism
 	+ Spatial Attention: RAM method
 	+ Channel Attention: SENet (Hu, Shen, and Sun 2018)
 
-<center>
+<div  align="center">    
 <img src="https://raw.githubusercontent.com/zhixuanli/segmentation-paper-reading-notes/master/images-folder/A-MCG-exp2.png" width="50%" height="50%" />
-</center>
+</div>
 
 3. Conv-LSTM
 
-<center>
+<div  align="center">    
 <img src="https://raw.githubusercontent.com/zhixuanli/segmentation-paper-reading-notes/master/images-folder/A-MCG-exp3.png" width="50%" height="50%" />
-</center>
+</div>
 
 #### 3.5 Experiment Results
 
-<center>
+<div  align="center">    
 <img src="https://raw.githubusercontent.com/zhixuanli/segmentation-paper-reading-notes/master/images-folder/A-MCG-exp4.png" width="60%" height="60%" />
-</center>
+</div>
 
 baseline: ResNet101-FCN
 
@@ -103,9 +103,9 @@ baseline: ResNet101-FCN
 
 1. Using Conv-LSTM as the fusion method is better:
 
-<center>
+<div  align="center">    
 <img src="https://raw.githubusercontent.com/zhixuanli/segmentation-paper-reading-notes/master/images-folder/A-MCG-exp5.png" width="80%" height="80%" />
-</center>
+</div>
 
 2. Multi level merging is common, but useful here.
 3. Channel attention is not very helpful, and sometime will decrease the performance. But spatial attention is benifitial here.

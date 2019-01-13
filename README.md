@@ -20,6 +20,6 @@
 | Index  |  Net Name | Conference | Paper Title & Note Link |
 | :----: | :-------: | :--------: | :---------------------: |
 | 01 | DeepLabV3+ | ECCV 2018 | [Encoder-Decoder with Atrous Separable Convolution for Semantic Image Segmentation](https://github.com/zhixuanli/segmentation-paper-reading-notes/blob/master/paper-reading-notes/01-DeepLabV3%2B.md) |
-| 02 | DAnet | AAAI 2019 | [Dual Attention Network for Scene Segmentation](https://github.com/zhixuanli/segmentation-paper-reading-notes/blob/master/paper-reading-notes/02-DANet.md) |
+| 02 | DANet | AAAI 2019 | [Dual Attention Network for Scene Segmentation](https://github.com/zhixuanli/segmentation-paper-reading-notes/blob/master/paper-reading-notes/02-DANet.md) |
 | 03 | A-MCG | AAAI 2019 | [Attention-based Multi-Context Guiding for Few-Shot Semantic Segmentation](https://github.com/zhixuanli/segmentation-paper-reading-notes/blob/master/paper-reading-notes/03-A-MCG%20network.md) |
 
