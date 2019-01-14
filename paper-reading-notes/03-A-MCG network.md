@@ -48,7 +48,7 @@ In the methods of few-shot semantic segmentation, there are some problems exists
 
 ### 2. [Contribution] What's new in this paper? 
 The proposed A-MCG network, has three contributions to solve the above problems:
-1. Multi-scale context features between the support and query braches are integrated for more efficient utilization.
+1. Multi-scale context features between the support and query branches are integrated for more efficient utilization.
 2. The Residual Attention Module(RAM) (Wang et al. 2017) is used here to make the concentration on the target class easier, avoiding to optimize on a large dataset.
 3. Conv-LSTM (Xingjian et al. 2015) is incorporated for better fusing multi-shot support feature.
 
@@ -108,10 +108,10 @@ baseline: ResNet101-FCN
 </div>
 
 2. Multi level merging is common, but useful here.
-3. Channel attention is not very helpful, and sometime will decrease the performance. But spatial attention is benifitial here.
+3. Channel attention is not very helpful, and sometime will decrease the performance. But spatial attention is beneficial here.
 
 ### 5. Disadvantages (self-summary rather than the author's)
 Some naive thoughts:
 
-1. When comparing with OSLSM and co-FCN, the backbone is different. VGG is used for OSLSM and co-FCN but ResNet101 is used for A-MCG. As far as we know, ResNet101 is much better than VGG. And the baseline is ResNet101-FCN, it's structure is too simple. Actually using ResNet101 pretrained on ImageNet to be the backbone of OSLSM and co-FCN, and let them be the baselines, may be a fairer comparison.
+1. When comparing with OSLSM and co-FCN, the backbone is different. VGG is used for OSLSM and co-FCN but ResNet101 is used for A-MCG. As far as we know, ResNet101 is much better than VGG. And the baseline is ResNet101-FCN, its structure is too simple. Actually using ResNet101 pretrained on ImageNet to be the backbone of OSLSM and co-FCN, and let them be the baselines, may be a fairer comparison.
 2. The A-MCG network looks too complicated for imposing of so much techniques.

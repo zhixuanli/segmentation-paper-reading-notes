@@ -24,13 +24,16 @@ _/50
 <img src="https://raw.githubusercontent.com/zhixuanli/segmentation-paper-reading-notes/master/images-folder/*.png" width="80%" height="80%" />
 </div>
 
+## Note
+
+
 ## Five questions about this paper:
 
 ### 1. [Problem Definition / Motivation] What problem is this paper trying to solve? 
 
 
 
-### 2. [Contribution] What's new in this paper? 
+### 2. [Contribution / Method] What's new in this paper? / How does this paper solve the above problems?
 
 
 ### 3. Details about the experiment

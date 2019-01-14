@@ -29,7 +29,7 @@ The 11318 images in the SBD are divided into 8498 training images and 2820 test 
 + Main page: [https://github.com/nightrome/cocostuff](https://github.com/nightrome/cocostuff)
 
  COCO-Stuff augments all 164K images of the popular COCO dataset with pixel-level stuff annotations.
- 
+
 + **COCO-Stuff dataset: The final version of COCO-Stuff, that is presented on this page.** It includes all 164K images from COCO 2017 (train 118K, val 5K, test-dev 20K, test-challenge 20K). It covers 172 classes: 80 thing classes, 91 stuff classes and 1 class 'unlabeled'. This dataset will form the basis of all upcoming challenges.
 + COCO 2017 Stuff Segmentation Challenge: A semantic segmentation challenge on 55K images (train 40K, val 5K, test-dev 5K, test-challenge 5K) of COCO. To focus on stuff, we merged all 80 thing classes into a single class 'other'. The results of the challenge were presented at the Joint COCO and Places Recognition Workshop at ICCV 2017.
 + COCO-Stuff 10K dataset: Our first dataset, annotated by 10 in-house annotators at the University of Edinburgh. It includes 10K images from the training set of COCO. We provide a 9K/1K (train/val) split to make results comparable. The dataset includes 80 thing classes, 91 stuff classes and 1 class 'unlabeled'. This was initially presented as 91 thing classes, but is now changed to 80 thing classes, as 11 classes do not have any segmentation annotations in COCO. This dataset is a subset of all other releases.
@@ -43,7 +43,8 @@ PASCAL-Context dataset augments PASCAL VOC 2010 dataset with annotations for 400
 The previous annotations covered around 29% of pixels in the dataset, while ours covers 100% of pixels. The dataset contains annotations for things (e.g., keyboard, fork), stuff (e.g., sky, water) and hybrids (e.g., road) that have clear boundaries, but their shape is more complex than the shape of things.
 
 ## 6. Cityscapes Datasets
-+ Paper: [The cityscapes dataset for semanticurban scene understanding](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Cordts_The_Cityscapes_Dataset_CVPR_2016_paper.pdf)
++ Paper: [The cityscapes dataset for semantic
+urban scene understanding](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Cordts_The_Cityscapes_Dataset_CVPR_2016_paper.pdf)
 + Main page: [https://www.cityscapes-dataset.com](https://www.cityscapes-dataset.com)
 
 **Details:**
@@ -52,16 +53,56 @@ The previous annotations covered around 29% of pixels in the dataset, while ours
 + 5000 annotated images with fine annotations
 + 20000 annotated images with coarse annotations
 
+**Descriptions:**
+
+CITYSCAPES is a real-world vehicle-egocentric image dataset collected from 50 cities in Germany and the countries around. 
+
+There are 5000 annotated images with fine annotations. 
+
+It provides three disjoint subsets: 2975 training images, 500 validation images, and 1525 test images. It also provides accurate pixel-level annotations for all images with 19 different categories.
+
+
+
 ## 7. PASCAL-$5^i$ (for shot learning)
+
 + Paper: [One-shot learning for semantic segmentation](https://arxiv.org/abs/1709.03410)
 + Main Page: [https://github.com/lzzcd001/OSLSM](https://github.com/lzzcd001/OSLSM)
 
 **The following descriptions are from [Attention-based Multi-Context Guiding for Few-Shot Semantic Segmentation](https://www.google.com.hk/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=2ahUKEwijz7mQsOrfAhVVUd4KHYsXCfUQFjAAegQIAhAC&url=https%3A%2F%2Fpdfs.semanticscholar.org%2F1216%2Feebb5a407b40eb46596073f0fd229acaea48.pdf&usg=AOvVaw2z0pB6k3R4zdgLhFZiQcFM)**
 
-This dataset is originated from PASCAL VOC12 (Everingham et al. ) and extended annotations from SDS (Hariharan et al. ). The set of 20 classes in PASCAL VOC12 is divided into four sub-datasets as indicated in Table 2. Three sub-datasets are used as the training label-set $L_{train}$, the left one sub-dataset is utilized for test label-set $L_{test}$.
+This dataset is originated from PASCAL VOC12 (Everingham et al. ) and extended annotations from SDS (Hariharan et al. ). The set of 20 classes in PASCAL VOC12 is divided into four sub-datasets as indicated in Table 2. Three sub-datasets are used as the training label-set $L_{train}$, the left one sub-dataset is utilized for test label-set $L_{test}​$.
 
 <div  align="center">    
 <img src="https://raw.githubusercontent.com/zhixuanli/segmentation-paper-reading-notes/master/images-folder/PASCAL-5i.png" width="60%" height="60%" />
 </div>
 
-The training set $D_{train}$ is composed of all image-mask pairs from PASCAL VOC12 and SDS training sets that include at least one pixel in the segmentation mask from the label-set $L_{train}$. The masks in $D_{train}$ are modified into binary masks by setting pixels whose semantic class are not in $L_{train}$ as background class l. The test set $D_{test}$ is from PASCAL VOC12 and SDS validation sets, and the processing procedure for test set $D_{test}$ is similar with training set $D_{train}$.
+The training set $D_{train}$ is composed of all image-mask pairs from PASCAL VOC12 and SDS training sets that include at least one pixel in the segmentation mask from the label-set $L_{train}$. The masks in $D_{train}$ are modified into binary masks by setting pixels whose semantic class are not in $L_{train}$ as background class l. The test set $D_{test}$ is from PASCAL VOC12 and SDS validation sets, and the processing procedure for test set $D_{test}$ is similar with training set $D_{train}​$.
+
+
+
+## 8.  SYNTHIA
+
++ Paper: [The synthia dataset: A large collection of synthetic images for semantic segmentation of urban scenes](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=2ahUKEwj4uY322ezfAhUJKHwKHRJeD30QFjAAegQIARAC&url=http%3A%2F%2Frefbase.cvc.uab.es%2Ffiles%2FRSM2016.pdf&usg=AOvVaw31lOP8Ts2FzXe0AcGtO6vU)
++ Main Page: [http://synthia-dataset.net/download-2/](http://synthia-dataset.net/download-2/)
+
+> SYNTHIA is a large dataset of photo-realistic frames rendered from a virtual city with precise pixel-level annotations.
+
+
+
+> It is the set containing the original 13,407 images used to perform training and domain adaptation of the models presented in our CVPR’16 paper. These images are generated as random perturbation of the world and therefore do not have temporal consistency (this is not a video stream). These images have annotations for 11 basic classes and do not have annotations for instances. The classes are: void, sky, building, road, sidewalk, fence, vegetation, pole, car, sign, pedestrian, cyclist.
+
+
+
+## 9.  GTA-5
+
++ Paper: [Playing for data: Ground truth from computer games.](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=2&cad=rja&uact=8&ved=2ahUKEwjwyeuF2-zfAhWjMnwKHfHYB6gQFjABegQICBAC&url=http%3A%2F%2Fvladlen.info%2Fpapers%2Fplaying-for-data.pdf&usg=AOvVaw2Oaq_UNH_yaDNxiazvRMki)
++ Main Page: [https://download.visinf.tu-darmstadt.de/data/from_games/index.html](https://download.visinf.tu-darmstadt.de/data/from_games/index.html)
++ Code: [https://bitbucket.org/visinf/projects-2016-playing-for-data](https://bitbucket.org/visinf/projects-2016-playing-for-data)
+
+>  GTA-5 contains 24966 high quality labeled frames from realistic open-world computer games, Grand Theft Auto V (GTA-5). Each frame is generated from fictional city of Los Santos, based on Los Angeles in Southern California with annotations that are compatible with CITYSCAPES dataset.
+
+
+
+## ATTENTION
+
+Descriptions are gathered from many different papers, and thank you all !
