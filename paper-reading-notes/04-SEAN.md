@@ -12,17 +12,18 @@ AAAI 2019
 
 #### Authors and Institutions
 ##### Authors
-Yonghao Xu 1;2
-Bo Du 1
-Lefei Zhang 1
-Qian Zhang 3
-Guoli Wang 3
-Liangpei Zhang 2
++ Yonghao Xu 1;2
++ Bo Du 1
++ Lefei Zhang 1
++ Qian Zhang 3
++ Guoli Wang 3
++ Liangpei Zhang 2
 
 ##### Institutions
-1 School of Computer Science , Wuhan University, Wuhan 430072, P. R. China.
-2 State Key Laboratory of Information Engineering in Surveying, Mapping, and Remote Sensing, Wuhan University, Wuhan 430079, P. R. China.
-3 Horizon Robotics, Inc., Beijing 100190, P. R. China.
+
++ 1 School of Computer Science , Wuhan University, Wuhan 430072, P. R. China.
++ 2 State Key Laboratory of Information Engineering in Surveying, Mapping, and Remote Sensing, Wuhan University, Wuhan 430079, P. R. China.
++ 3 Horizon Robotics, Inc., Beijing 100190, P. R. China.
 
 #### Official Codes
 NO
@@ -32,6 +33,8 @@ NO
 <div  align="center">    
 <img src="https://raw.githubusercontent.com/zhixuanli/segmentation-paper-reading-notes/master/images-folder/04-SEAN-01.png" width="80%" height="80%" />
 </div>
+
+
 ## Notes
 
 This paper propose a self-ensembling structure that ensembling the learning ability of teacher network and student network in the same time.
@@ -95,6 +98,26 @@ Attention module, domain adaption
 
 1. the backbone networks
 
-   we employ the DeepLab-v2 (Chen et al. 2018) with VGG-16 (Simonyan and Zisserman 2014) model pre-trained on ImageNet (Deng et al. 2009) and Pascal VOC datasets (Everingham et al. 2010) as the backbone networks.
+we employ the DeepLab-v2 (Chen et al. 2018) with VGG-16 (Simonyan and Zisserman 2014) model pre-trained on ImageNet (Deng et al. 2009) and Pascal VOC datasets (Everingham et al. 2010) as the backbone networks.
 
-   
+#### 3.5 (Optional）What is the ranking of the experiment results?
+Experiment results
+<div  align="center">    
+<img src="https://raw.githubusercontent.com/zhixuanli/segmentation-paper-reading-notes/master/images-folder/04-SEAN-02.png" width="100%" height="100%" />
+</div>
+
+Visualization of results
+<div  align="center">    
+<img src="https://raw.githubusercontent.com/zhixuanli/segmentation-paper-reading-notes/master/images-folder/04-SEAN-03.png" width="100%" height="100%" />
+</div>
+
+Attention visualization
+<div  align="center">    
+<img src="https://raw.githubusercontent.com/zhixuanli/segmentation-paper-reading-notes/master/images-folder/04-SEAN-04.png" width="60%" height="60%" />
+</div>
+
+### 5. Disadvantages (self-summary rather than the author's)
+
++ Some representations are literally repeated for many times.
++ Ensembling network usually means ensembling many different networks to achieve the better performance. Here only one archetecture is used for both student and teacher networks. Maybe the term of "ensembling" is very not suitable here.
++ Experiments result on SYNTHIA datasets is not showed for comparing different methods.
