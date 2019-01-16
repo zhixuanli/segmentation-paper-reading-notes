@@ -3,7 +3,8 @@
 
 ## Paper Information
 #### Paper Title : 
-[Encoder-Decoder with Atrous Separable Convolution for Semantic Image Segmentation](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=3&cad=rja&uact=8&ved=2ahUKEwik37fbi8zfAhXzOn0KHYpTCzQQFjACegQICBAB&url=https%3A%2F%2Farxiv.org%2Fabs%2F1802.02611&usg=AOvVaw0pOEX9DfWqpHvfnCjdywuy)
+[Encoder-Decoder with Atrous Separable Convolution for Semantic Image Segmentation](https://arxiv.org/abs/1802.02611)
+
 #### Conference : 
 ECCV 2018
 #### Authors and Institution

@@ -20,10 +20,10 @@
 
 Details of the papers are collected in the notes. 
 
-| Index  |  Net Name | Conference | Papers Title & Note Links |
-| :----: | :-------: | :--------: | :---------------------: |
-| 01 | DeepLabV3+ | ECCV 2018 | [Encoder-Decoder with Atrous Separable Convolution for Semantic Image Segmentation](https://github.com/zhixuanli/segmentation-paper-reading-notes/blob/master/paper-reading-notes/01-DeepLabV3%2B.md) |
-| 02 | DANet | AAAI 2019 | [Dual Attention Network for Scene Segmentation](https://github.com/zhixuanli/segmentation-paper-reading-notes/blob/master/paper-reading-notes/02-DANet.md) |
-| 03 | A-MCG | AAAI 2019 | [Attention-based Multi-Context Guiding for Few-Shot Semantic Segmentation](https://github.com/zhixuanli/segmentation-paper-reading-notes/blob/master/paper-reading-notes/03-A-MCG%20network.md) |
-| 04 | SEAN | AAAI 2019 | [Self-Ensembling Attention Networks: Addressing Domain Shift for Semantic Segmentation](https://github.com/zhixuanli/segmentation-paper-reading-notes/blob/master/paper-reading-notes/04-SEAN.md) |
+| Index  |  Net Name | Conference | Papers Title & | Note Links | Code |
+| :----: | :-------: | :--------: | :---------------------: | :----: | :----: |
+| 01 | DeepLabV3+ | ECCV 2018 | [Encoder-Decoder with Atrous Separable Convolution for Semantic Image Segmentation](https://arxiv.org/abs/1802.02611) | [01-DeepLabV3+.md](https://github.com/zhixuanli/segmentation-paper-reading-notes/blob/master/paper-reading-notes/01-DeepLabV3%2B.md) | [Official Code](https://github.com/tensorflow/models/tree/master/research/deeplab) |
+| 02 | DANet | AAAI 2019 | [Dual Attention Network for Scene Segmentation](https://arxiv.org/abs/1809.02983) | [02-DANet.md](https://github.com/zhixuanli/segmentation-paper-reading-notes/blob/master/paper-reading-notes/02-DANet.md) | [Official Code](https://github.com/junfu1115/DANet) |
+| 03 | A-MCG | AAAI 2019 | [Attention-based Multi-Context Guiding for Few-Shot Semantic Segmentation](https://pdfs.semanticscholar.org/1216/eebb5a407b40eb46596073f0fd229acaea48.pdf) | [03-A-MCG network.md](https://github.com/zhixuanli/segmentation-paper-reading-notes/blob/master/paper-reading-notes/03-A-MCG%20network.md) | NO |
+| 04 | SEAN | AAAI 2019 | [Self-Ensembling Attention Networks: Addressing Domain Shift for Semantic Segmentation]() | [04-SEAN.md](https://github.com/zhixuanli/segmentation-paper-reading-notes/blob/master/paper-reading-notes/04-SEAN.md) | NO |
 

@@ -3,7 +3,7 @@
 
 ## Paper Information
 #### Paper Title : 
-[Attention-based Multi-Context Guiding for Few-Shot Semantic Segmentation](https://www.google.com.hk/url?sa=t&rct=j&q=&esrc=s&source=web&cd=2&cad=rja&uact=8&ved=2ahUKEwiq9NOzpuXfAhUKybwKHSrBDTkQFjABegQIABAC&url=https%3A%2F%2Fpdfs.semanticscholar.org%2F1216%2Feebb5a407b40eb46596073f0fd229acaea48.pdf&usg=AOvVaw2z0pB6k3R4zdgLhFZiQcFM) 
+[Attention-based Multi-Context Guiding for Few-Shot Semantic Segmentation](https://pdfs.semanticscholar.org/1216/eebb5a407b40eb46596073f0fd229acaea48.pdf) 
 
 #### Conference : 
 AAAI 2019
@@ -15,7 +15,14 @@ AAAI 2019
 + Chiliang Zhang 3, 
 + Gang Yu 4, 
 + Yadong Mu 2, 
-+ Cees G. M. Snoek 1##### Institutions+ 1 University of Amsterdam, the Netherlands+ 2 Peking University, China+ 3 Tsinghua University, China+ 4 Megvii Inc. (Face++), China
++ Cees G. M. Snoek 1
+
+##### Institutions
++ 1 University of Amsterdam, the Netherlands
++ 2 Peking University, China
++ 3 Tsinghua University, China
++ 4 Megvii Inc. (Face++), China
+
 #### Official Codes
 NO 
 
