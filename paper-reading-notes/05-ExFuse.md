@@ -1,34 +1,41 @@
 ### The progress of the reading plan: 
-_ / 50
+05 / 50
 
 ## Paper Information
 #### Paper Title : 
-[]() 
+[ExFuse: Enhancing Feature Fusion for Semantic Segmentation](https://arxiv.org/abs/1804.03821) 
 
 #### Conference : 
 
-
+ECCV 2018
 
 
 #### Authors and Institutions
 ##### Authors
 
-
++ Zhenli Zhang 1
++ Xiangyu Zhang 2
++ Chao Peng 2
++ Dazhi Cheng 3
++ Jian Sun 2
 
 ##### Institutions
 
-
++ 1 Fudan University
++ 2 Megvii Inc. (Face++)
++ 3 Beijing Institute of Technology
 
 #### Official Codes
 
-
+NO
 
 
 #### Network Structure
 
 <div  align="center">    
-<img src="https://raw.githubusercontent.com/zhixuanli/segmentation-paper-reading-notes/master/images-folder/*.png" width="80%" height="80%" />
+<img src="https://raw.githubusercontent.com/zhixuanli/segmentation-paper-reading-notes/master/images-folder/05-ExFuse-01.png" width="80%" height="80%" />
 </div>
+
 
 ## Note
 

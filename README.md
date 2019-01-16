@@ -20,7 +20,7 @@
 
 Details of the papers are collected in the notes. 
 
-| Index  |  Net Name | Conference | Papers Title & | Note Links | Code |
+| Index  |  Net Name | Conference | Papers Title | Note Links | Code |
 | :----: | :-------: | :--------: | :---------------------: | :----: | :----: |
 | 01 | DeepLabV3+ | ECCV 2018 | [Encoder-Decoder with Atrous Separable Convolution for Semantic Image Segmentation](https://arxiv.org/abs/1802.02611) | [01-DeepLabV3+.md](https://github.com/zhixuanli/segmentation-paper-reading-notes/blob/master/paper-reading-notes/01-DeepLabV3%2B.md) | [Official Code](https://github.com/tensorflow/models/tree/master/research/deeplab) |
 | 02 | DANet | AAAI 2019 | [Dual Attention Network for Scene Segmentation](https://arxiv.org/abs/1809.02983) | [02-DANet.md](https://github.com/zhixuanli/segmentation-paper-reading-notes/blob/master/paper-reading-notes/02-DANet.md) | [Official Code](https://github.com/junfu1115/DANet) |
