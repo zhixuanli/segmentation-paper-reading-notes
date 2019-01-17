@@ -92,8 +92,10 @@ In other words, feature fusion could be enhanced **by introducing more semantic 
 
 
 ### 5. Disadvantages (self-summary rather than the author's)
-1. Comparing ExFuse with the atrous convolution, which can keep the resolution while going deeper layers, is important.
-2. The writing is too tricky. For example, 
++ Comparing ExFuse with the atrous convolution, which can keep the resolution while going deeper layers, is important.
++ The writing is too tricky. 
+
+For example, 
 
 > feature maps close to semantic supervisions (e.g. classication loss) tend to encode more
 
@@ -104,3 +106,24 @@ Here the semantic supervisions actually means the high level layers.
 Actually, here the author changed the structure of ResNeXt network, to dicrease the amount of building blocks from {3; 4; 23; 3} to {8; 8; 9; 8}, which means the amount of hiden layers is less. So naturally more the low-level layers are closer to the high level layers.
 
 I suggest that neat and clear representations should be used in writing, or misleading may be happen.
+
++ About the "Semantic Embedding Branch"
+
+> However, if the low-level feature contains little semantic information, it is insucient to recover the semantic resolution.
+
+<div  align="center">    
+<img src="https://raw.githubusercontent.com/zhixuanli/segmentation-paper-reading-notes/master/images-folder/05-ExFuse-02.png" width="80%" height="80%" />
+</div>
+
+I don't agree with the author. The low level feature has only very few semantic infomation, and most of it is the struture information.
+The semantic information, should be in the charge of high level information. That's why we fuse the low and high level features.
+
+So, the low level feature here, is not becoming richer of information. Actually it's becoming poorer. 
+
+Because when we look at the struture of the "Semantic Embedding Branch", we can find that the low level feature map is multiplying element-wisely with the upsampled high level feature. And the high level feature contains many semantic informations. The information of whether two pixels are belonging to the same class is included in it. We can regard it as an attention map or a mask, the value it including implies each position in the low level feature is the boundary or not.
+
+After the multiplication, the noises in the low level feature are decreased, by preserving the boundaries and discarding those inplace noisy values. Just look the following image.
+
+<div  align="center">    
+<img src="https://raw.githubusercontent.com/zhixuanli/segmentation-paper-reading-notes/master/images-folder/05-ExFuse-03.png" width="80%" height="80%" />
+</div>
