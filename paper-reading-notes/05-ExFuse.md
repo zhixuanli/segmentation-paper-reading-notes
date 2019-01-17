@@ -127,3 +127,7 @@ After the multiplication, the noises in the low level feature are decreased, by 
 <div  align="center">    
 <img src="https://raw.githubusercontent.com/zhixuanli/segmentation-paper-reading-notes/master/images-folder/05-ExFuse-03.png" width="80%" height="80%" />
 </div>
+
+**Refinement is actually what happened here.**
+
+So may we can design a structure to refine the low level feature to decrease its noise specifically.
