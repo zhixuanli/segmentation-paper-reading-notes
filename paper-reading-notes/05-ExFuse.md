@@ -77,7 +77,12 @@ In other words, feature fusion could be enhanced **by introducing more semantic 
     <img src="https://raw.githubusercontent.com/zhixuanli/segmentation-paper-reading-notes/master/images-folder/05-ExFuse-02.png" width="80%" height="80%" />
     </div>
 2. embed more spatial information into high-level features
-  + explicit channel resolution embedding (**ECRE**) : Adopting the method of [ESPCN](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Shi_Real-Time_Single_Image_CVPR_2016_paper.pdf), which is a extraordinary idea for sub-pixel super resolution.
+  + explicit channel resolution embedding (**ECRE**) : Adopting the method of [ESPCN](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Shi_Real-Time_Single_Image_CVPR_2016_paper.pdf), which is a extraordinary idea for sub-pixel super resolution. But the auxiliary supervision here, combining with the sub-pixel upsampling is necessary.
+
+    <div  align="center">    
+    <img src="https://raw.githubusercontent.com/zhixuanli/segmentation-paper-reading-notes/master/images-folder/05-ExFuse-06.png" width="80%" height="80%" />
+    </div>
+
   + densely adjacent prediction (**DAP**)
 
 Here is the ablation experiments of the methods above.
@@ -86,29 +91,60 @@ Here is the ablation experiments of the methods above.
 <img src="https://raw.githubusercontent.com/zhixuanli/segmentation-paper-reading-notes/master/images-folder/05-ExFuse-05.png" width="80%" height="80%" />
 </div>
 
+Some comparison conclusion:
+
+|                    Module                    | Index compared | Improvement(%) |
+| :------------------------------------------: | :------------: | :------------: |
+|          SS - semantic supervision           |      1, 2      |      1.5       |
+|           LR - layer rearrangement           |      2, 3      |      0.8       |
+| ECRE - explicit channel resolution embedding |      3, 4      |      0.5       |
+|                     ECRE                     |      6, 7      |      0.4       |
+|       SEB - semantic embedding branch        |      3, 5      |      0.7       |
+|      DAP - densely adjacent prediction       |      5, 6      |      0.6       |
+
 
 
 ### 3. Details about the experiment
 
 #### 3.1 Which Datasets are used?
 
++ PASCAL VOC 2012
 
++ Microsoft COCO dataset
++ SBD
 
 #### 3.2 How is the experiment set up?
 
-
+Employing Microsoft COCO dataset to pretrain the model.
 
 #### 3.3 What's the evaluation metric?
 
-
+mIoU
 
 #### 3.4 (Optional）How to divide training data and test data？
 
++ In stage-1, we mix up all images in COCO, SBD and standard PASCAL VOC 2012
 
+images, resulting in 109892 images for training in total. 
+
++ In stage-2, we utilize SBD and PASCAL VOC 2012 training images. 
++ Finally for stage-3, we only employ standard PASCAL VOC 2012 training set.
 
 #### 3.5 (Optional）What is the ranking of the experiment results?
 
+<div  align="center">    
+<img src="https://raw.githubusercontent.com/zhixuanli/segmentation-paper-reading-notes/master/images-folder/05-ExFuse-07.png" width="80%" height="80%" />
+</div>
 
+Actually the ExFuse utilized more datas than Deeplabv3+ to train. And SBD isn't used in Deeplabv3 too.
+
+So actually the comparision is not completed and unfair.
+
+Here's a table made by myself. No fairly comparision is common.
+
+<div  align="center">    
+<img src="https://raw.githubusercontent.com/zhixuanli/segmentation-paper-reading-notes/master/images-folder/05-ExFuse-08.png" width="80%" height="80%" />
+</div>
 
 ### 4. Advantages (self-summary rather than the author's)
 
