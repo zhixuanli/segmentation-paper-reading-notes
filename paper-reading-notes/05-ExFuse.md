@@ -92,8 +92,10 @@ In other words, feature fusion could be enhanced **by introducing more semantic 
 
 
 ### 5. Disadvantages (self-summary rather than the author's)
-+ Comparing ExFuse with the atrous convolution, which can keep the resolution while going deeper layers, is important.
-+ The writing is too tricky. 
+#### 5.1
+Comparing ExFuse with the atrous convolution, which can keep the resolution while going deeper layers, is important.
+
+#### 5.2 The writing is too tricky. 
 
 For example, 
 
@@ -107,7 +109,7 @@ Actually, here the author changed the structure of ResNeXt network, to dicrease 
 
 I suggest that neat and clear representations should be used in writing, or misleading may be happen.
 
-+ About the "Semantic Embedding Branch"
+#### 5.3 About the "Semantic Embedding Branch"
 
 > However, if the low-level feature contains little semantic information, it is insucient to recover the semantic resolution.
 
