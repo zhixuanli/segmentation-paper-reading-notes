@@ -40,11 +40,15 @@ NO
 </div>
 
 
+
+
 ## Note
+### Summary in one sentence.
+
 Enhance the feature fusing method of U-Net structure semantic segmentation methods by introducing more semantic concepts into low-level features and by embedding more spatial information into high-level features.
 
-
 ### Key Words
+
 Feature Fusing
 
 
@@ -52,17 +56,36 @@ Feature Fusing
 
 ### 1. [Problem Definition / Motivation] What problem is this paper trying to solve? 
 A lot of methods fuse low-level but high-resolution features and high-level low-resolution features don't considering the large semantic or resolution gap between low and high level features.
+
 If low level feature does't have any high level semantic information, then it will contain many noises and become a burden when fusing with high level feature, and vice versa.
+
 In other words, feature fusion could be enhanced **by introducing more semantic concepts into low-level features or by embedding more spatial information into high-level features**.
 
 ### 2. [Contribution / Method] What's new in this paper? / How does this paper solve the above problems?
 1. introduce more semantic information into low-level features
-	+ layer rearrangement
-	+ semantic supervision
-	+ semantic embedding branch
+  + layer rearrangement (**LR**): decrease the mount of layers between the low and high level feature.
+
+  + semantic supervision (**SS**): Also called auxiliary supervisions. At training process, take account of the loss of all the auxiliary branches to force the low level features to contain more semantic informantion. 
+
+    <div  align="center">    
+    <img src="https://raw.githubusercontent.com/zhixuanli/segmentation-paper-reading-notes/master/images-folder/05-ExFuse-04.png" width="80%" height="80%" />
+    </div>
+
+  + **[THE MOST INTERESTING] semantic embedding branch (SEB)**: Using high level feature to refine the low level feature map, discarding some noises.
+
+    <div  align="center">    
+    <img src="https://raw.githubusercontent.com/zhixuanli/segmentation-paper-reading-notes/master/images-folder/05-ExFuse-02.png" width="80%" height="80%" />
+    </div>
 2. embed more spatial information into high-level features
-	+ explicit channel resolution embedding
-	+ densely adjacent prediction
+  + explicit channel resolution embedding (**ECRE**) : Adopting the method of [ESPCN](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Shi_Real-Time_Single_Image_CVPR_2016_paper.pdf), which is a extraordinary idea for sub-pixel super resolution.
+  + densely adjacent prediction (**DAP**)
+
+Here is the ablation experiments of the methods above.
+
+<div  align="center">    
+<img src="https://raw.githubusercontent.com/zhixuanli/segmentation-paper-reading-notes/master/images-folder/05-ExFuse-05.png" width="80%" height="80%" />
+</div>
+
 
 
 ### 3. Details about the experiment
@@ -130,6 +153,12 @@ After the multiplication, the noises in the low level feature are decreased, by 
 <img src="https://raw.githubusercontent.com/zhixuanli/segmentation-paper-reading-notes/master/images-folder/05-ExFuse-03.png" width="80%" height="80%" />
 </div>
 
-**Refinement is actually what happened here.**
+**Refinement is actually what's happening here.**
 
 So may we can design a structure to refine the low level feature to decrease its noise specifically.
+
+
+
+# 6. What's more?
+
+This ExFuse paper reveals importance of refining the low and high level features for the gap between them. So a iteration structure to enhance the low and high level features recurrently maybe helpful.
