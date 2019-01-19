@@ -26,4 +26,5 @@ Details of the papers are collected in the notes.
 | 02 | DANet | AAAI 2019 | [Dual Attention Network for Scene Segmentation](https://arxiv.org/abs/1809.02983) | [02-DANet.md](https://github.com/zhixuanli/segmentation-paper-reading-notes/blob/master/paper-reading-notes/02-DANet.md) | [Official Code](https://github.com/junfu1115/DANet) |
 | 03 | A-MCG | AAAI 2019 | [Attention-based Multi-Context Guiding for Few-Shot Semantic Segmentation](https://pdfs.semanticscholar.org/1216/eebb5a407b40eb46596073f0fd229acaea48.pdf) | [03-A-MCG network.md](https://github.com/zhixuanli/segmentation-paper-reading-notes/blob/master/paper-reading-notes/03-A-MCG%20network.md) | NO |
 | 04 | SEAN | AAAI 2019 | Self-Ensembling Attention Networks: Addressing Domain Shift for Semantic Segmentation | [04-SEAN.md](https://github.com/zhixuanli/segmentation-paper-reading-notes/blob/master/paper-reading-notes/04-SEAN.md) | NO |
+| 05 | ExFuse | ECCV 2018 | [ExFuse: Enhancing Feature Fusion for Semantic Segmentation](https://arxiv.org/abs/1804.03821) | [05-ExFuse.md](https://github.com/zhixuanli/segmentation-paper-reading-notes/blob/master/paper-reading-notes/05-ExFuse.md) | NO |
 
