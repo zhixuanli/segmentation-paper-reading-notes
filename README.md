@@ -3,10 +3,16 @@
 
 ## Semantic segmentation paper list reference: 
 1. [语义分割 - Semantic Segmentation Papers](http://www.aiuai.cn/aifarm62.html)
+
 2. [arXiv Search result: Semantic Segmentation](https://arxiv.org/search/advanced?advanced=&terms-0-operator=AND&terms-0-term=Semantic+Segmentation&terms-0-field=title&classification-computer_science=y&classification-physics_archives=all&classification-include_cross_list=include&date-filter_by=all_dates&date-year=&date-from_date=&date-to_date=&date-date_type=submitted_date&abstracts=show&size=50&order=-announced_date_first)
+
 3. [A collection of AWESOME things about domain adaptation](https://github.com/zhaoxin94/awsome-domain-adaptation#semantic-segmentation)
+
 4. [https://zhangbin0917.github.io/2018/09/18/Semantic-Segmentation/#more](https://zhangbin0917.github.io/2018/09/18/Semantic-Segmentation/#more)
+
 5. [AAAI 19 Accepted_Papers](https://aaai.org/Conferences/AAAI-19/wp-content/uploads/2018/11/AAAI-19_Accepted_Papers.pdf)
+
+   
 
 ## CATALOGS
 1. [Summary of the semantic segmentation datasets](https://github.com/zhixuanli/segmentation-paper-reading-notes/blob/master/others/Summary%20of%20the%20semantic%20segmentation%20datasets.md#summary-of-the-semantic-segmentation-datasets)
