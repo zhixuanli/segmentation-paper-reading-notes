@@ -13,11 +13,18 @@
 ## CATALOGS
 1. [Summary of the semantic segmentation datasets](https://github.com/zhixuanli/segmentation-paper-reading-notes/blob/master/others/Summary%20of%20the%20semantic%20segmentation%20datasets.md#summary-of-the-semantic-segmentation-datasets)
 2. [Paper Reading Template](https://github.com/zhixuanli/segmentation-paper-reading-notes/blob/master/paper-reading-notes/PaperReadingTemplate.md)
+3. [Experiment Result Collecting](https://github.com/zhixuanli/segmentation-paper-reading-notes/blob/master/others/Experiment%20Result%20Collecting.xlsx)
 3. [语义分割-知识点总结](https://github.com/zhixuanli/segmentation-paper-reading-notes/blob/master/others/%E8%AF%AD%E4%B9%89%E5%88%86%E5%89%B2-%E7%9F%A5%E8%AF%86%E7%82%B9%E6%80%BB%E7%BB%93.md)
 	+ [Depth-wise separable convolution](https://github.com/zhixuanli/segmentation-paper-reading-notes/blob/master/others/%E8%AF%AD%E4%B9%89%E5%88%86%E5%89%B2-%E7%9F%A5%E8%AF%86%E7%82%B9%E6%80%BB%E7%BB%93.md#1-depthwise-separable-convolution)
 	+ [atrous convolution 带洞卷积](https://github.com/zhixuanli/segmentation-paper-reading-notes/blob/master/others/%E8%AF%AD%E4%B9%89%E5%88%86%E5%89%B2-%E7%9F%A5%E8%AF%86%E7%82%B9%E6%80%BB%E7%BB%93.md#2-atrous-convolution-%E5%B8%A6%E6%B4%9E%E5%8D%B7%E7%A7%AF)
 	+ [Spatial pyramid pooling](https://github.com/zhixuanli/segmentation-paper-reading-notes/blob/master/others/%E8%AF%AD%E4%B9%89%E5%88%86%E5%89%B2-%E7%9F%A5%E8%AF%86%E7%82%B9%E6%80%BB%E7%BB%93.md#3-spatial-pyramid-pooling)
 	+ [Xception model](https://github.com/zhixuanli/segmentation-paper-reading-notes/blob/master/others/%E8%AF%AD%E4%B9%89%E5%88%86%E5%89%B2-%E7%9F%A5%E8%AF%86%E7%82%B9%E6%80%BB%E7%BB%93.md#4-xception-model)
+
+## Experiment Results on Cityscapes testing set
+
+<div  align="center">    
+<img src="https://raw.githubusercontent.com/zhixuanli/segmentation-paper-reading-notes/master/images-folder/CityScape-exp-result.png" width="80%" height="80%" />
+</div>
 
 ## PROGRESS
 
