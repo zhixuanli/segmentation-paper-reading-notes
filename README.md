@@ -21,6 +21,7 @@
 	+ [Xception model](https://github.com/zhixuanli/segmentation-paper-reading-notes/blob/master/others/%E8%AF%AD%E4%B9%89%E5%88%86%E5%89%B2-%E7%9F%A5%E8%AF%86%E7%82%B9%E6%80%BB%E7%BB%93.md#4-xception-model)
 
 ## Experiment Results on Cityscapes testing set
+Collected by myself.
 
 <div  align="center">    
 <img src="https://raw.githubusercontent.com/zhixuanli/segmentation-paper-reading-notes/master/images-folder/CityScape-exp-result.png" width="80%" height="80%" />
