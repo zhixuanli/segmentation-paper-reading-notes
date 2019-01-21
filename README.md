@@ -22,7 +22,8 @@
 ## PROGRESS
 
 Details of the papers are collected in the notes. 
-"My Rating" is my personal rating of these papers from 1-10.
+"My Rating" is my personal rating of these papers from 1-10, from bad to good.
+
 
 | Index  |  Net Name | Conference | Papers Title | Note Links | Code | My Rating |
 | :----: | :-------: | :--------: | :----------: | :--------: | :--: | :-------: |
