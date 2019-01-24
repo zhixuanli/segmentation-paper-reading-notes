@@ -103,6 +103,10 @@ we employ the DeepLab-v2 (Chen et al. 2018) with VGG-16 (Simonyan and Zisserman 
 #### 3.5 (Optional）What is the ranking of the experiment results?
 Experiment results
 <div  align="center">    
+<img src="https://raw.githubusercontent.com/zhixuanli/segmentation-paper-reading-notes/master/images-folder/04-SEAN-05.png" width="100%" height="100%" />
+</div>
+
+<div  align="center">    
 <img src="https://raw.githubusercontent.com/zhixuanli/segmentation-paper-reading-notes/master/images-folder/04-SEAN-02.png" width="100%" height="100%" />
 </div>
 
@@ -120,4 +124,3 @@ Attention visualization
 
 + Some representations are literally repeated for many times.
 + Ensembling network usually means ensembling many different networks to achieve the better performance. Here only one archetecture is used for both student and teacher networks. Maybe the term of "ensembling" is very not suitable here.
-+ Experiments result on SYNTHIA datasets is not showed for comparing different methods.

@@ -19,6 +19,11 @@ Microsoft Research
 #### Official Codes
 [https://github.com/PkuRainBow/OCNet.pytorch](https://github.com/PkuRainBow/OCNet.pytorch)
 
+#### Articals for understanding
+In Chinese, by the OCNet's author.
+
+[Object Context：通往更好的场景分割算法 （以及最新的Fast-OCNet）](https://zhuanlan.zhihu.com/p/43902175)
+
 #### Network Structure
 
 <div  align="center">    
