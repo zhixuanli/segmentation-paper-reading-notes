@@ -123,4 +123,11 @@ Attention visualization
 ### 5. Disadvantages (self-summary rather than the author's)
 
 + Some representations are literally repeated for many times.
-+ Ensembling network usually means ensembling many different networks to achieve the better performance. Here only one archetecture is used for both student and teacher networks. Maybe the term of "ensembling" is very not suitable here.
++ Ensembling network usually means ensembling many different networks to achieve the better performance. Here only one archetecture is used for both Student and Teacher networks. Maybe the term of "ensembling" is very not suitable here.
++ What's the really meaning of Teacher Network? 
+	+ Here, without the target domain ground truth, what if the Teacher Network learned something wrong? And how can the Teacher teach the student then?
+	+ The ability of Teacher is not better than the student, so maybe the name "Teacher" is not very suitable here.
++ Ablation study for figuring out the effect of the Teacher Network is lacking.
+
+
+Maybe the meaning of Teacher Network is to ensure the parameters (the learning progress) of the Student Network doesn't change rapidly between two iterations, because the Teacher network can be regard as saving the state of the last iteration of the Student Network. But this can be achieved by adding a regulation item.

@@ -101,6 +101,10 @@ The training set $D_{train}$ is composed of all image-mask pairs from PASCAL VOC
 
 >  GTA-5 contains 24966 high quality labeled frames from realistic open-world computer games, Grand Theft Auto V (GTA-5). Each frame is generated from fictional city of Los Santos, based on Los Angeles in Southern California with annotations that are compatible with CITYSCAPES dataset.
 
+## 10. ADE20K
++ Paper: [Scene parsing through ade20k dataset.](http://openaccess.thecvf.com/content_cvpr_2017/papers/Zhou_Scene_Parsing_Through_CVPR_2017_paper.pdf)
++ Main Page: [http://groups.csail.mit.edu/vision/datasets/ADE20K/](http://groups.csail.mit.edu/vision/datasets/ADE20K/)
++ Code: [https://github.com/CSAILVision/semantic-segmentation-pytorch](https://github.com/CSAILVision/semantic-segmentation-pytorch)
 
 
 ## ATTENTION
