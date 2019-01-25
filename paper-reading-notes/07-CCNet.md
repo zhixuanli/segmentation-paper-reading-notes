@@ -18,7 +18,9 @@ NO yet
 + Wenyu Liu 1
 
 ##### Institutions
-+ 1 School of EIC, Huazhong University of Science and Technology+ 2 Horizon Robotics+ 3 Beckman Institute, University of Illinois at Urbana-Champaign
++ 1 School of EIC, Huazhong University of Science and Technology
++ 2 Horizon Robotics
++ 3 Beckman Institute, University of Illinois at Urbana-Champaign
 
 
 #### Official Codes
@@ -38,7 +40,9 @@ Diagrams of two attention-based context aggregation methods.
 
 ## Note
 RCCA: recurrent criss-cross attention module
+
 Why there must exist at least 2 RCCA module?
+
 Because when we only have 1 RCCA module, then after passing the module, each position only captures the relationship between the positions in the same column and same row.
 
 <div  align="center">    
@@ -60,6 +64,7 @@ Complexity; Efficient
 
 ### 1. [Problem Definition / Motivation] What problem is this paper trying to solve? 
 These attention-based methods need to generate huge attention maps to measure the relationships for each pixel-pair, whose complexity in time and space are both **O((HxW)x(HxW))**.
+
 This paper aims to reduce the complexity of time and space.
 
 
