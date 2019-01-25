@@ -106,6 +106,7 @@ The training set $D_{train}$ is composed of all image-mask pairs from PASCAL VOC
 + Main Page: [http://groups.csail.mit.edu/vision/datasets/ADE20K/](http://groups.csail.mit.edu/vision/datasets/ADE20K/)
 + Code: [https://github.com/CSAILVision/semantic-segmentation-pytorch](https://github.com/CSAILVision/semantic-segmentation-pytorch)
 
+> ADE20K is a recent scene parsing benchmark containing dense labels of 150 stuff/object categories. The dataset includes 20K/2K/3K images for training, validation and test.
 
 ## ATTENTION
 

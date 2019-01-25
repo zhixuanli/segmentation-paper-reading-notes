@@ -12,6 +12,16 @@
 
 ## CATALOGS
 1. [Summary of the semantic segmentation datasets](https://github.com/zhixuanli/segmentation-paper-reading-notes/blob/master/others/Summary%20of%20the%20semantic%20segmentation%20datasets.md#summary-of-the-semantic-segmentation-datasets)
+	1. [PASCAL VOC 2012](https://github.com/zhixuanli/segmentation-paper-reading-notes/blob/master/others/Summary%20of%20the%20semantic%20segmentation%20datasets.md#1-pascal-voc-2012)
+	2. [Semantic Boundaries Dataset (SBD)](https://github.com/zhixuanli/segmentation-paper-reading-notes/blob/master/others/Summary%20of%20the%20semantic%20segmentation%20datasets.md#2-semantic-boundaries-dataset-sbd)
+	3. [PASCAL VOC 2012 augmented with SBD](https://github.com/zhixuanli/segmentation-paper-reading-notes/blob/master/others/Summary%20of%20the%20semantic%20segmentation%20datasets.md#3-pascal-voc-2012-augmented-with-sbd)
+	4. [The COCO-Stuff dataset](https://github.com/zhixuanli/segmentation-paper-reading-notes/blob/master/others/Summary%20of%20the%20semantic%20segmentation%20datasets.md#4-the-coco-stuff-dataset)
+	5. [PASCAL-Context Dataset](https://github.com/zhixuanli/segmentation-paper-reading-notes/blob/master/others/Summary%20of%20the%20semantic%20segmentation%20datasets.md#5-pascal-context-dataset)
+	6. [Cityscapes Datasets](https://github.com/zhixuanli/segmentation-paper-reading-notes/blob/master/others/Summary%20of%20the%20semantic%20segmentation%20datasets.md#6-cityscapes-datasets)
+	7. [PASCAL-$5^i$ (for shot learning)](https://github.com/zhixuanli/segmentation-paper-reading-notes/blob/master/others/Summary%20of%20the%20semantic%20segmentation%20datasets.md#7-pascal-5i-for-shot-learning)
+	8. [SYNTHIA](https://github.com/zhixuanli/segmentation-paper-reading-notes/blob/master/others/Summary%20of%20the%20semantic%20segmentation%20datasets.md#8--synthia)
+	9. [GTA-5](https://github.com/zhixuanli/segmentation-paper-reading-notes/blob/master/others/Summary%20of%20the%20semantic%20segmentation%20datasets.md#9--gta-5)
+	10. [ADE20K](https://github.com/zhixuanli/segmentation-paper-reading-notes/blob/master/others/Summary%20of%20the%20semantic%20segmentation%20datasets.md#10-ade20k)
 2. [Paper Reading Template](https://github.com/zhixuanli/segmentation-paper-reading-notes/blob/master/paper-reading-notes/PaperReadingTemplate.md)
 3. [Experiment Result Collecting](https://github.com/zhixuanli/segmentation-paper-reading-notes/blob/master/others/Experiment%20Result%20Collecting.xlsx)
 3. [语义分割-知识点总结](https://github.com/zhixuanli/segmentation-paper-reading-notes/blob/master/others/%E8%AF%AD%E4%B9%89%E5%88%86%E5%89%B2-%E7%9F%A5%E8%AF%86%E7%82%B9%E6%80%BB%E7%BB%93.md)
@@ -20,8 +30,10 @@
 	+ [Spatial pyramid pooling](https://github.com/zhixuanli/segmentation-paper-reading-notes/blob/master/others/%E8%AF%AD%E4%B9%89%E5%88%86%E5%89%B2-%E7%9F%A5%E8%AF%86%E7%82%B9%E6%80%BB%E7%BB%93.md#3-spatial-pyramid-pooling)
 	+ [Xception model](https://github.com/zhixuanli/segmentation-paper-reading-notes/blob/master/others/%E8%AF%AD%E4%B9%89%E5%88%86%E5%89%B2-%E7%9F%A5%E8%AF%86%E7%82%B9%E6%80%BB%E7%BB%93.md#4-xception-model)
 
-## Experiment Results on Cityscapes testing set
-Collected by myself.
+## Experiment Results
+Experiment Results on Cityscapes testing set, collected by myself.
+
+About the other datasets, please read this file: [Experiment Result Collecting.xlsx](https://raw.githubusercontent.com/zhixuanli/segmentation-paper-reading-notes/master/others/Experiment%20Result%20Collecting.xlsx)
 
 <div  align="center">    
 <img src="https://raw.githubusercontent.com/zhixuanli/segmentation-paper-reading-notes/master/images-folder/CityScape-exp-result.png" width="70%" height="70%" />
