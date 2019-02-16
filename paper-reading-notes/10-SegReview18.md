@@ -120,13 +120,13 @@ Laplacian pyramid is also used by (Ghiasi and Fowlkes 2016). They bring out a mu
 ##### 4.6.2 Atrous spatial pyramid pooling
 ASPP
 <div  align="center">    
-<img src="https://raw.githubusercontent.com/zhixuanli/segmentation-paper-reading-notes/master/images-folder/10-SegReview18/07.png" width="80%" height="80%" />
+<img src="https://raw.githubusercontent.com/zhixuanli/segmentation-paper-reading-notes/master/images-folder/10-SegReview18/07.png" width="60%" height="60%" />
 </div>
 
 ##### 4.6.3 Pooling pyramid
 PSPNet
 <div  align="center">    
-<img src="https://raw.githubusercontent.com/zhixuanli/segmentation-paper-reading-notes/master/images-folder/10-SegReview18/09.png" width="80%" height="80%" />
+<img src="https://raw.githubusercontent.com/zhixuanli/segmentation-paper-reading-notes/master/images-folder/10-SegReview18/09.png" width="60%" height="60%" />
 </div>
 
 ##### 4.6.4 Feature pyramid
@@ -136,7 +136,7 @@ In fact, recent deep learning object detectors have avoided pyramid representati
 Structure adopted in Hariharan et al. (2015) as hypercolumns
 
 <div  align="center">    
-<img src="https://raw.githubusercontent.com/zhixuanli/segmentation-paper-reading-notes/master/images-folder/10-SegReview18/08.png" width="80%" height="80%" />
+<img src="https://raw.githubusercontent.com/zhixuanli/segmentation-paper-reading-notes/master/images-folder/10-SegReview18/08.png" width="60%" height="60%" />
 </div>
 
 #### 4.8 Supervised, weakly-supervised and unsupervised methods
