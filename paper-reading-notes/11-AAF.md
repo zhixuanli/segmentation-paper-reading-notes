@@ -41,11 +41,19 @@ UC Berkeley / ICSI
 ## Five questions about this paper:
 
 ### 1. [Problem Definition / Motivation] What problem is this paper trying to solve? 
+There have been two main lines of efforts at incorporating structural reasoning into semantic segmentation: CRF and GAN.
 
+CRF enforces label consistency between pixels measured by the similiarity in visual appearance, but it's time-consuming and sensitive to visual appearance changes.
 
+GAN makes the predicted label map tested by a discriminator network on whether it resembles ground truth label maps in the training set. But it's very hard to train, particularly proning to model instability and mode collapses.
 
+<div  align="center">    
+<img src="https://raw.githubusercontent.com/zhixuanli/segmentation-paper-reading-notes/master/images-folder/11-AAF/02.png" width="80%" height="80%" />
+</div>
+
+To solve the problem of sensitive to visual appearance changes and hard to training, AAF is proposed.
 ### 2. [Contribution / Method] What's new in this paper? / How does this paper solve the above problems?
-
+AAF is proposed to capture and match the semantic relations between neighbouring pixels in the label space.
 
 
 ### 3. Details about the experiment
