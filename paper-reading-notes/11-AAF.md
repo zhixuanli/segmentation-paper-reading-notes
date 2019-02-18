@@ -35,7 +35,10 @@ UC Berkeley / ICSI
 
 AAF is proposed to structure modeling by matching the relations between neighbouring pixels in the label space, it can be seen as a region-wise supervision method.
 
-### About [Cross-Entropy](https://ml-cheatsheet.readthedocs.io/en/latest/loss_functions.html)
+###  1. From Pixel-wise Supervision to Region-wise Supervision
+
+#### About [Cross-Entropy](https://ml-cheatsheet.readthedocs.io/en/latest/loss_functions.html)
+
 Pixel-wise cross-entropy loss is most often used in CNNs for semantic segmentation. It implicitly assumes that the relationships between pixels can be learned as the effective receptive field increases with deeper layers.
 
 <div  align="center">    
@@ -44,6 +47,24 @@ Pixel-wise cross-entropy loss is most often used in CNNs for semantic segmentati
 
 <div  align="center"> 
 Image from [ml-cheatsheet](https://ml-cheatsheet.readthedocs.io/en/latest/loss_functions.html)
+</div>
+
+Such a unary loss does not take the semantic label correlation and scene structure into account. This kind of inter-class and inner-class pixel relationships are informative and can be integrated into learning as structure reasoning.
+
+The **region-wise loss** is proposed to integrate these intrinsic pixel relationships. It takes the neighbors $N_{y_i}$ of a pixel $i$ in to account.
+
+
+
+The overall objective:
+
+<div  align="center">    
+<img src="https://raw.githubusercontent.com/zhixuanli/segmentation-paper-reading-notes/master/images-folder/11-AAF/03.png" width="50%" height="50%" />
+</div>
+
+### 2.  Affinity Field Loss Function
+
+<div  align="center">    
+<img src="https://raw.githubusercontent.com/zhixuanli/segmentation-paper-reading-notes/master/images-folder/11-AAF/04.png" width="80%" height="80%" />
 </div>
 
 
