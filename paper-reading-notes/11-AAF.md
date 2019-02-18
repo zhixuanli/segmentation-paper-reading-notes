@@ -21,9 +21,6 @@ UC Berkeley / ICSI
 #### Official Codes
 [https://github.com/twke18/Adaptive_Affinity_Fields](https://github.com/twke18/Adaptive_Affinity_Fields)
 
-#### Some articles to comprehend this paper
-[ECCV18 | UC伯克利提出基于自适应相似场的语义分割](https://mp.weixin.qq.com/s/A6g-WFwuXB-4bX9xg3O9NQ)
-
 #### Network Structure
 
 <div  align="center">    
@@ -31,6 +28,23 @@ UC Berkeley / ICSI
 </div>
 
 ## Note
+1. Most methods treat semantic segmentation as a pixel-wise classification task, but when foreground and background pixels are close or mixed together, these methods will fundamentally lack the spatial discrimination power.
+2. Image segmentation has highly correlated outputs among the pixels. Formulating it as an independent pixel labeling problem not only makes the pixel level classification unnecessarily hard, but also leads to artifacts and spatially incoherent results. **That's why structure modeling method like CRF are so useful to incorporate structure information into segmentation**.
+
+(But actually the relationship between each pixel and the others are used by many STOA methods, such as DANet.)
+
+AAF is proposed to structure modeling by matching the relations between neighbouring pixels in the label space, it can be seen as a region-wise supervision method.
+
+### About [Cross-Entropy](https://ml-cheatsheet.readthedocs.io/en/latest/loss_functions.html)
+Pixel-wise cross-entropy loss is most often used in CNNs for semantic segmentation. It implicitly assumes that the relationships between pixels can be learned as the effective receptive field increases with deeper layers.
+
+<div  align="center">    
+<img src="https://raw.githubusercontent.com/zhixuanli/segmentation-paper-reading-notes/master/images-folder/11-AAF/cross_entropy.png" width="80%" height="80%" />
+</div>
+
+<div  align="center"> 
+Image from [ml-cheatsheet](https://ml-cheatsheet.readthedocs.io/en/latest/loss_functions.html)
+</div>
 
 
 
@@ -59,7 +73,9 @@ AAF is proposed to capture and match the semantic relations between neighbouring
 ### 3. Details about the experiment
 
 #### 3.1 Which Datasets are used?
-
++ PASCAL VOC 2012
++ Cityscapes
++ GTA5
 
 
 #### 3.2 How is the experiment set up?
