@@ -42,7 +42,7 @@ AAF is proposed to structure modeling by matching the relations between neighbou
 Pixel-wise cross-entropy loss is most often used in CNNs for semantic segmentation. It implicitly assumes that the relationships between pixels can be learned as the effective receptive field increases with deeper layers.
 
 <div  align="center">    
-<img src="https://raw.githubusercontent.com/zhixuanli/segmentation-paper-reading-notes/master/images-folder/11-AAF/cross_entropy.png" width="80%" height="80%" />
+<img src="https://raw.githubusercontent.com/zhixuanli/segmentation-paper-reading-notes/master/images-folder/11-AAF/cross_entropy.png" width="50%" height="50%" />
 </div>
 
 <div  align="center"> 
@@ -58,20 +58,45 @@ The **region-wise loss** is proposed to integrate these intrinsic pixel relation
 The overall objective:
 
 <div  align="center">    
-<img src="https://raw.githubusercontent.com/zhixuanli/segmentation-paper-reading-notes/master/images-folder/11-AAF/03.png" width="50%" height="50%" />
+<img src="https://raw.githubusercontent.com/zhixuanli/segmentation-paper-reading-notes/master/images-folder/11-AAF/03.png" width="60%" height="60%" />
 </div>
 
 ### 2.  Affinity Field Loss Function
 
 <div  align="center">    
-<img src="https://raw.githubusercontent.com/zhixuanli/segmentation-paper-reading-notes/master/images-folder/11-AAF/04.png" width="80%" height="80%" />
+<img src="https://raw.githubusercontent.com/zhixuanli/segmentation-paper-reading-notes/master/images-folder/11-AAF/04.png" width="90%" />
 </div>
 
+We define pairwise pixel affinity based not on the image, but on ground-truth label map. There are two types of label relationships between a pair of pixels: whether their labels are the same or different.
 
++ a grouping force: encourages network predictions at i and j to be similar
++ a separating force: pushes apart their label predictions
+
+The loss function:
+<div  align="center">    
+<img src="https://raw.githubusercontent.com/zhixuanli/segmentation-paper-reading-notes/master/images-folder/11-AAF/02.png" width="80%" height="80%" />
+</div>
+
+### 3. Adaptive Kernel Sizes from Adversarial Learning
+Region-wise supervision often requires a preset kernel size for CNNs, but we cannot expect one kernel size fits all categories.
+
+So diffent field will have different kernel size.
+
+### 4. The AAF loss function
+<div  align="center">    
+<img src="https://raw.githubusercontent.com/zhixuanli/segmentation-paper-reading-notes/master/images-folder/11-AAF/07.png" width="80%" height="80%" />
+</div>
+
+and 
+<div  align="center">    
+<img src="https://raw.githubusercontent.com/zhixuanli/segmentation-paper-reading-notes/master/images-folder/11-AAF/05.png" width="80%" height="80%" />
+</div>
+
+<div  align="center">    
+<img src="https://raw.githubusercontent.com/zhixuanli/segmentation-paper-reading-notes/master/images-folder/11-AAF/06.png" width="80%" height="80%" />
+</div>
 
 ### Key Words
-
-
 
 ## Five questions about this paper:
 
@@ -100,23 +125,44 @@ AAF is proposed to capture and match the semantic relations between neighbouring
 
 
 #### 3.2 How is the experiment set up?
+1. GAN’s Adversarial Learning.
+2. Pixel Embedding.
+3. CRF-based Processing.
 
 
 
 #### 3.3 What's the evaluation metric?
++ pixel-wise mIoU：all existing semantic segmentation works adopted
++ instance-wise mIoU
+	+ pixel-wise mIoU metric is often biased toward large objects, we introduce the instance-wise mIoU to alleviate the bias, which allow us to evaluate fairly **the performance on smaller objects**.
++ boundary detection metrics
 
 
+#### 3.4 Ablation Study
+<div  align="center">    
+<img src="https://raw.githubusercontent.com/zhixuanli/segmentation-paper-reading-notes/master/images-folder/11-AAF/08.png" width="80%" height="80%" />
+</div>
 
-#### 3.4 (Optional）How to divide training data and test data？
+<div  align="center">    
+<img src="https://raw.githubusercontent.com/zhixuanli/segmentation-paper-reading-notes/master/images-folder/11-AAF/09.png" width="80%" height="80%" />
+</div>
+
+<div  align="center">    
+<img src="https://raw.githubusercontent.com/zhixuanli/segmentation-paper-reading-notes/master/images-folder/11-AAF/10.png" width="80%" height="80%" />
+</div>
 
 
+#### 3.5 What is the ranking of the experiment results?
 
-#### 3.5 (Optional）What is the ranking of the experiment results?
-
-
+<div  align="center">    
+<img src="https://raw.githubusercontent.com/zhixuanli/segmentation-paper-reading-notes/master/images-folder/11-AAF/11.png" width="80%" height="80%" />
+</div>
 
 ### 4. Advantages (self-summary rather than the author's)
 
 
 
 ### 5. Disadvantages (self-summary rather than the author's)
++ Lacks of results on Cityscapes test set
++ Lacks of comparision with other STOA methods and actually the performance is not very well, according to the result on the PASCAL VOC test set (pixel level)
+

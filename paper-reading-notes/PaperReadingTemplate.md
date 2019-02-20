@@ -28,7 +28,7 @@ _ / 50
 #### Network Structure
 
 <div  align="center">    
-<img src="https://raw.githubusercontent.com/zhixuanli/segmentation-paper-reading-notes/master/images-folder/*.png" width="80%" height="80%" />
+<img src="https://raw.githubusercontent.com/zhixuanli/segmentation-paper-reading-notes/master/images-folder/*.png" width="80%" />
 </div>
 
 ## Note
@@ -63,11 +63,11 @@ _ / 50
 
 
 
-#### 3.4 (Optional）How to divide training data and test data？
+#### 3.4 Ablation Study
 
 
 
-#### 3.5 (Optional）What is the ranking of the experiment results?
+#### 3.5 What is the ranking of the experiment results?
 
 
 
