@@ -84,7 +84,7 @@ So diffent field will have different kernel size.
 
 ### 4. The AAF loss function
 <div  align="center">    
-<img src="https://raw.githubusercontent.com/zhixuanli/segmentation-paper-reading-notes/master/images-folder/11-AAF/07.png" width="80%" height="80%" />
+<img src="https://raw.githubusercontent.com/zhixuanli/segmentation-paper-reading-notes/master/images-folder/11-AAF/07.png" width="60%" height="80%" />
 </div>
 
 and 
@@ -93,7 +93,7 @@ and
 </div>
 
 <div  align="center">    
-<img src="https://raw.githubusercontent.com/zhixuanli/segmentation-paper-reading-notes/master/images-folder/11-AAF/06.png" width="80%" height="80%" />
+<img src="https://raw.githubusercontent.com/zhixuanli/segmentation-paper-reading-notes/master/images-folder/11-AAF/06.png" width="50%" height="80%" />
 </div>
 
 ### Key Words
