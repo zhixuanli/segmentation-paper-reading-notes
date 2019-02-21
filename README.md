@@ -41,6 +41,7 @@ About the other datasets, please read this file: [Experiment Result Collecting.x
 
 ## PROGRESS
 
+### Semantic Segmentation Paper Reading Notes
 Details of the papers are collected in the notes. 
 "My Rating" is my personal rating of these papers from 1-10, from bad to good.
 
@@ -59,3 +60,11 @@ Details of the papers are collected in the notes.
 | 10 | \ | Artificial Intelligence Review 2018 | [Recent progress in semantic image segmentation](https://arxiv.org/pdf/1809.10198) | [10-SegReview18.md](https://github.com/zhixuanli/segmentation-paper-reading-notes/blob/master/paper-reading-notes/10-SegReview18.md) | NO | 4 |
 | 11 | AAF | ECCV 2018 | [Adaptive Affinity Fields for Semantic Segmentation](http://openaccess.thecvf.com/content_ECCV_2018/papers/Jyh-Jing_Hwang_Adaptive_Affinity_Field_ECCV_2018_paper.pdf) | [11-AAF.md](https://github.com/zhixuanli/segmentation-paper-reading-notes/blob/master/paper-reading-notes/11-AAF.md) | [Official Code](https://github.com/twke18/Adaptive_Affinity_Fields) | 5 |
 | 12 | GCN | CVPR 2017 | [Large Kernel Matters——Improve Semantic Segmentation by Global Convolutional Network](http://openaccess.thecvf.com/content_cvpr_2017/papers/Peng_Large_Kernel_Matters_CVPR_2017_paper.pdf) | [12-GCN.md](https://github.com/zhixuanli/segmentation-paper-reading-notes/blob/master/paper-reading-notes/12-GCN.md) | [Inofficial Code](https://github.com/ycszen/pytorch-segmentation) | * |
+
+
+
+### Other Related Papers Reading Notes
+
+| Index  |  Net Name | Conference | Papers Title | Note Links | Code | My Rating |
+| :----: | :-------: | :--------: | :----------: | :--------: | :--: | :-------: |
+| 01 |  |  | []() | [](https://github.com/zhixuanli/segmentation-paper-reading-notes/blob/master/paper-reading-notes/01-DeepLabV3%2B.md) | [Official Code]() | * |
