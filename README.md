@@ -8,6 +8,7 @@
 4. [https://zhangbin0917.github.io/2018/09/18/Semantic-Segmentation/#more](https://zhangbin0917.github.io/2018/09/18/Semantic-Segmentation/#more)
 5. [AAAI 19 Accepted_Papers](https://aaai.org/Conferences/AAAI-19/wp-content/uploads/2018/11/AAAI-19_Accepted_Papers.pdf)
 6. [CVPR 2018 open access](http://openaccess.thecvf.com/CVPR2018.py)
+7. [MICCAI 2018 accepted papers](https://www.miccai2018.org/files/downloads/MICCAI2018-Accepted-Papers-IDs-and-Titles.pdf)
 
    
 
