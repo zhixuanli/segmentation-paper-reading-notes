@@ -68,4 +68,4 @@ Details of the papers are collected in the notes.
 
 | Index  |  Net Name | Conference | Papers Title | Note Links | Code | My Rating |
 | :----: | :-------: | :--------: | :----------: | :--------: | :--: | :-------: |
-| 01 |  |  | []() | [](https://github.com/zhixuanli/segmentation-paper-reading-notes/blob/master/paper-reading-notes/01-DeepLabV3%2B.md) | [Official Code]() | * |
+| 01 |  |  | []() | [](https://github.com/zhixuanli/segmentation-paper-reading-notes/blob/master/paper-reading-notes/Other-Related-Papers-Reading-Notes/01-DeepLabV3%2B.md) | [Official Code]() | * |
