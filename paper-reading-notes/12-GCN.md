@@ -39,6 +39,16 @@ To address the contradictory aspects including classification and localization, 
 <img src="https://raw.githubusercontent.com/zhixuanli/segmentation-paper-reading-notes/master/images-folder/12-GCN/01.png" width="80%" />
 </div>
 
+Instead of directly using larger kernel or global convolution, our GCN module employs a combination of 1  x k + k x 1 and k x 1 + 1 x k convolutions, which enables densely connections within a large k x k region in the feature map.
+
+And computation cost is lower.
+
+
+As a comparison, our Global Convolution Network significantly enlarges the VRF
+
+<div  align="center">    
+<img src="https://raw.githubusercontent.com/zhixuanli/segmentation-paper-reading-notes/master/images-folder/12-GCN/03.png" width="80%" />
+</div>
 
 ### Key Words
 
@@ -65,7 +75,8 @@ We introduce boundary refinement block to model the boundary alignment as a resi
 ### 3. Details about the experiment
 
 #### 3.1 Which Datasets are used?
-
++ PASCAL VOC 2012 (SBD)
++ Cityscapes
 
 
 #### 3.2 How is the experiment set up?
@@ -77,11 +88,56 @@ We introduce boundary refinement block to model the boundary alignment as a resi
 
 
 #### 3.4 Ablation Study
+<div  align="center">    
+<img src="https://raw.githubusercontent.com/zhixuanli/segmentation-paper-reading-notes/master/images-folder/12-GCN/04.png" width="70%" />
+</div>
 
+##### Global Convolutional Network — Large Kernel Matters
+<div  align="center">    
+<img src="https://raw.githubusercontent.com/zhixuanli/segmentation-paper-reading-notes/master/images-folder/12-GCN/05.png" width="60%" />
+</div>
 
+(1) Are more parameters helpful?
+<div  align="center">    
+<img src="https://raw.githubusercontent.com/zhixuanli/segmentation-paper-reading-notes/master/images-folder/12-GCN/07.png" width="60%" />
+</div>
 
+(2) GCN vs. Stack of small convolutions
+<div  align="center">    
+<img src="https://raw.githubusercontent.com/zhixuanli/segmentation-paper-reading-notes/master/images-folder/12-GCN/06.png" width="60%" />
+</div>
+
+<div  align="center">    
+<img src="https://raw.githubusercontent.com/zhixuanli/segmentation-paper-reading-notes/master/images-folder/12-GCN/08.png" width="60%" />
+</div>
+
+(3) How GCN contributes to the segmentation results?
+<div  align="center">    
+<img src="https://raw.githubusercontent.com/zhixuanli/segmentation-paper-reading-notes/master/images-folder/12-GCN/09.png" width="60%" />
+</div>
+
+##### Global Convolutional Network for Pretrained Model
+<div  align="center">    
+<img src="https://raw.githubusercontent.com/zhixuanli/segmentation-paper-reading-notes/master/images-folder/12-GCN/11.png" width="60%" />
+</div>
+
+Change the module in original ResNet to GCN. We can safely conclude that GCN mainly helps to improvesegmentation performance, no matter in pretrained model or segmentation-specific structures.
+
+<div  align="center">    
+<img src="https://raw.githubusercontent.com/zhixuanli/segmentation-paper-reading-notes/master/images-folder/12-GCN/10.png" width="60%" />
+</div>
 #### 3.5 What is the ranking of the experiment results?
+<div  align="center">    
+<img src="https://raw.githubusercontent.com/zhixuanli/segmentation-paper-reading-notes/master/images-folder/12-GCN/12.png" width="60%" />
+</div>
 
+<div  align="center">    
+<img src="https://raw.githubusercontent.com/zhixuanli/segmentation-paper-reading-notes/master/images-folder/12-GCN/13.png" width="60%" />
+</div>
+
+<div  align="center">    
+<img src="https://raw.githubusercontent.com/zhixuanli/segmentation-paper-reading-notes/master/images-folder/12-GCN/14.png" width="60%" />
+</div>
 
 
 ### 4. Advantages (self-summary rather than the author's)

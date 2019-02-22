@@ -7,6 +7,7 @@
 3. [A collection of AWESOME things about domain adaptation](https://github.com/zhaoxin94/awsome-domain-adaptation#semantic-segmentation)
 4. [https://zhangbin0917.github.io/2018/09/18/Semantic-Segmentation/#more](https://zhangbin0917.github.io/2018/09/18/Semantic-Segmentation/#more)
 5. [AAAI 19 Accepted_Papers](https://aaai.org/Conferences/AAAI-19/wp-content/uploads/2018/11/AAAI-19_Accepted_Papers.pdf)
+6. [CVPR 2018 open access](http://openaccess.thecvf.com/CVPR2018.py)
 
    
 
@@ -59,7 +60,7 @@ Details of the papers are collected in the notes.
 | 09 | PSPNet | CVPR 2017 | [Pyramid Scene Parsing Network](http://openaccess.thecvf.com/content_cvpr_2017/papers/Zhao_Pyramid_Scene_Parsing_CVPR_2017_paper.pdf) | [09-PSPNet.md](https://github.com/zhixuanli/segmentation-paper-reading-notes/blob/master/paper-reading-notes/09-PSPNet.md) | [Official Code](https://github.com/hszhao/PSPNet) | 3 |
 | 10 | \ | Artificial Intelligence Review 2018 | [Recent progress in semantic image segmentation](https://arxiv.org/pdf/1809.10198) | [10-SegReview18.md](https://github.com/zhixuanli/segmentation-paper-reading-notes/blob/master/paper-reading-notes/10-SegReview18.md) | NO | 4 |
 | 11 | AAF | ECCV 2018 | [Adaptive Affinity Fields for Semantic Segmentation](http://openaccess.thecvf.com/content_ECCV_2018/papers/Jyh-Jing_Hwang_Adaptive_Affinity_Field_ECCV_2018_paper.pdf) | [11-AAF.md](https://github.com/zhixuanli/segmentation-paper-reading-notes/blob/master/paper-reading-notes/11-AAF.md) | [Official Code](https://github.com/twke18/Adaptive_Affinity_Fields) | 5 |
-| 12 | GCN | CVPR 2017 | [Large Kernel Matters——Improve Semantic Segmentation by Global Convolutional Network](http://openaccess.thecvf.com/content_cvpr_2017/papers/Peng_Large_Kernel_Matters_CVPR_2017_paper.pdf) | [12-GCN.md](https://github.com/zhixuanli/segmentation-paper-reading-notes/blob/master/paper-reading-notes/12-GCN.md) | [Inofficial Code](https://github.com/ycszen/pytorch-segmentation) | * |
+| 12 | GCN | CVPR 2017 | [Large Kernel Matters——Improve Semantic Segmentation by Global Convolutional Network](http://openaccess.thecvf.com/content_cvpr_2017/papers/Peng_Large_Kernel_Matters_CVPR_2017_paper.pdf) | [12-GCN.md](https://github.com/zhixuanli/segmentation-paper-reading-notes/blob/master/paper-reading-notes/12-GCN.md) | [Inofficial Code](https://github.com/ycszen/pytorch-segmentation) | 7 |
 
 
 
