@@ -1,5 +1,7 @@
 ### The progress of the reading plan: 
-_ / 50
+| Index  |  In Other | All |
+| :----: | :-------: | :-------: |
+| 13 | 01 | 50 |
 
 ## Paper Information
 #### Paper Title : 
