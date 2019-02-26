@@ -91,7 +91,7 @@ mIoU
 
 
 ### 4. Advantages (self-summary rather than the author's)
-1. This idea is very simple, but write such a long paper is hard. It's good for us to read this papaer carefully for many times.
+1. This idea is very simple but effective. It's good for us to read this papaer carefully for many times.
 2. The experiment contains in this paper is really comprehensive.
 3. The charts are beautiful!
 
