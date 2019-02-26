@@ -32,16 +32,14 @@ DeepMotion Inc.
 #### Network Structure
 
 <div  align="center">    
-<img src="https://raw.githubusercontent.com/zhixuanli/segmentation-paper-reading-notes/master/images-folder/14-DenseASPP/01.png" width="80%" />
+<img src="https://raw.githubusercontent.com/zhixuanli/segmentation-paper-reading-notes/master/images-folder/14-DenseASPP/01.png" width="100%" />
 </div>
 
 ## Note
-
+This paper belongs to the branch of enrich the information of features. Though the struture seems easy, but this kind of method is really useful.
 
 
 ### Key Words
-
-
 
 ## Five questions about this paper:
 
@@ -53,15 +51,21 @@ But when high resolution images are used as the input of segmentation methods, t
 
 Therefore, it is important to design a network structure that is able to encode multi-scale information, and simultaneously achieves a large enough receptive field size.
 
-PS: deeper network will have bigger receptive field, actually I'dont think it's a big problem.
-### 2. [Contribution / Method] What's new in this paper? / How does this paper solve the above problems?
+<div  align="center">    
+<img src="https://raw.githubusercontent.com/zhixuanli/segmentation-paper-reading-notes/master/images-folder/14-DenseASPP/02.png" width="80%" />
+</div>
 
+PS: deeper network will have bigger receptive field, so actually I'dont think it's a big problem.
+### 2. [Contribution / Method] What's new in this paper? / How does this paper solve the above problems?
+The network structure is neat and articulate. 
+
+Multi-grid features are merged together to get bigger receptive field and in the same time remaining the rich information.
 
 
 ### 3. Details about the experiment
 
 #### 3.1 Which Datasets are used?
-
++ CityScapes
 
 
 #### 3.2 How is the experiment set up?
@@ -69,7 +73,7 @@ PS: deeper network will have bigger receptive field, actually I'dont think it's 
 
 
 #### 3.3 What's the evaluation metric?
-
+mIoU
 
 
 #### 3.4 Ablation Study
@@ -77,11 +81,17 @@ PS: deeper network will have bigger receptive field, actually I'dont think it's 
 
 
 #### 3.5 What is the ranking of the experiment results?
-
+<div  align="center">    
+<img src="https://raw.githubusercontent.com/zhixuanli/segmentation-paper-reading-notes/master/images-folder/14-DenseASPP/03.png" width="80%" />
+</div>
 
 
 ### 4. Advantages (self-summary rather than the author's)
-
+1. This idea is very simple, but write such a long paper is hard. It's good for us to read this papaer carefully for many times.
+2. The experiment contains in this paper is really comprehensive.
+3. The charts are beautiful!
 
 
 ### 5. Disadvantages (self-summary rather than the author's)
+1. Different level of layers contain different amount of information. So may be some layer is more important than the other layers. If we add the attention module here, the better performance will be reached.
+2. Further more, for faster computation, we can take apart the kernel of atrous convolution from kxk to kx1 and 1xk.
