@@ -59,6 +59,10 @@ PS: deeper network will have bigger receptive field, so actually I'dont think it
 ### 2. [Contribution / Method] What's new in this paper? / How does this paper solve the above problems?
 The network structure is neat and articulate. 
 
+**Through cascade, applying d=6 conv on the feature map of d=3 conv, we can actually get the bigger receptive field than a normal d=6 conv can get.**
+
+This undirect method is wonderful!!!
+
 Multi-grid features are merged together to get bigger receptive field and in the same time remaining the rich information.
 
 
