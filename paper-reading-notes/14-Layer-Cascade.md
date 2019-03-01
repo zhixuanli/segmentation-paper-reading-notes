@@ -35,20 +35,27 @@ CVPR 2017
 </div>
 
 ## Note
+
+### How to divide different difficulties?
++ Easy Set(ES): correct classified confidence > 95%
++ Hard Set(HS): misclassified confidence > 95%
++ Moderate Set(MS): covers pixels that have classification scores smaller than 0.95
+
+### Network
 IRNet is turned into LC by dividing its different components as different stages.
 
 In addition, we append two convolutional layers and a softmax loss at the end of each stage. 
 
 In this case, the original IRNet with one loss function develops into multiple stages, where each stage has its own loss function. So multi-stage training is applied.
 
-### Details about stage-1:
+#### Details about stage-1:
 In the first stage, given a 3x512x512 image I, stage-1 predicts a 21x64x64 segmentation label map L1, where each 21x1 column vector, denoted as $L^1_i ∊ R^{21x1}$, indicates the probabilities (confidence scores) of the i-th pixel belonging to 21 object categories in VOC respectively.
 
 Using the softmax function to let $∑^{21}_{j=1}L^1_{ij}=1$.
 
 If the maximum score of the i-th pixel, $l^1_i = max(L^1_i)$ and $l^1_i ∊$ {$L^1_{ij}|j=1...21$}, is larger than a threshold 𝝆, we accept its prediction and do not propagate it forward to stage-2.
 
-### Region Convolution
+#### Region Convolution
 As presented above, stage-2 and -3 only calculate convolutions on those pixels that have been propagated forward.
 
 <div  align="center">    
@@ -56,9 +63,6 @@ As presented above, stage-2 and -3 only calculate convolutions on those pixels t
 </div>
 
 So region convolution is used here.
-
-### Key Words
-
 
 
 ## Five questions about this paper:
@@ -136,8 +140,6 @@ It reveals that some pixels are harder to be classified. But with the net going 
 + After applying LC on Inception-ResNet-v2 (IRNet) [32], its speed and accuracy are improved by 42.8% and 1.7%, respectively. So the main contribution is on the speed, not the accuracy. But this idea is really interesting.
 
 But I really believe the hard classes's samples are the bottleneck of semantic segmentation, not the edges of each object. So maybe a better method should be proposed.
-
-+ How to define "hard to classify"? Only confidence is not enough, may be misclassify rate should be used.
 
 ### 6. Don't understand
 Secondly, as feature maps with high resolution consume a large amount of GPU memory in the learning process, they limit the size of minibatch (e.g. 8), making the batch normalization (BN) layers [14] unstable (as which need to estimate sample mean and variance from the data in a mini-batch). We cope with this issue by simply fixing the values of all parameters in BNs. This strategy works well in practice.
