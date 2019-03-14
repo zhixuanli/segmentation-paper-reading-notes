@@ -108,6 +108,10 @@ The training set $D_{train}$ is composed of all image-mask pairs from PASCAL VOC
 
 > ADE20K is a recent scene parsing benchmark containing dense labels of 150 stuff/object categories. The dataset includes 20K/2K/3K images for training, validation and test.
 
+## 11. COCO panoptic segmentation dataset
++ [http://cocodataset.org/#panoptic-2018](http://cocodataset.org/#panoptic-2018)
++ 
+
 ## ATTENTION
 
 Descriptions are gathered from many different papers, and thank you all !

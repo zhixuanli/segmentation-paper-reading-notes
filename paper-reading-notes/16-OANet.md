@@ -32,14 +32,8 @@ NO
 
 #### Some articles to comprehend this paper
 
-
-#### Network Structure
-
-<div  align="center">    
-<img src="https://raw.githubusercontent.com/zhixuanli/segmentation-paper-reading-notes/master/images-folder/17-OANet/02.png" width="80%" />
-</div>
-
 ## Note
+### Introduction to Panoptic segmentation
 **Panoptic segmentation** is the combination of semantic segmentation and instance segmentation.
 
 In this task, the stuff segmentation is employed to predict the amorphous regions (noted ***Stuff*** ), such as sky and grass, while the instance segmentation solves the countable objects (noted ***Thing*** ), such as people and cars.
@@ -57,6 +51,24 @@ Previous panoptic segmentation algorithms usually contain three separated compon
 
 But this independent way is inefficient.
 
+And the merging period has the challenge of overlapping. This paper proposed an end-to-end method to use one network to do the 2 tasks, and a new learnable mergin method.
+
+### Introduction to Instance Segmentation
+two main frameworks for instance segmentation:
+
++ the proposal-based methods: 
+	+ first generate the object detection bounding boxes and then perform mask prediction on each box for instance segmentation.
++ segmentation-based methods
+
+### About the OANet:
+
+#### Network Structure
+
+<div  align="center">    
+<img src="https://raw.githubusercontent.com/zhixuanli/segmentation-paper-reading-notes/master/images-folder/17-OANet/02.png" width="80%" />
+</div>
+We employ FPN as the backbone architecture for the end-to-end network.
+
 ### Key Words
 
 
@@ -69,8 +81,8 @@ Traditionally, in panoptic segmentation algorithms, the instance and stuff segme
 At the merging period, without the context information between the stuff and thing, the merge process will face the challenge of **overlapping relationships** between instances and stuff.
 
 ### 2. [Contribution / Method] What's new in this paper? / How does this paper solve the above problems?
-
-
++ We incorporate the instance segmentation and stuff segmentation **into one network**, which shares the backbone features but applies different head branches for the two tasks.
++ To solve the problem of overlapping relationship between object instances, we introduce a new algorithm called **Spatial Ranking Module**. This module learns the ranking score and offers an ordering accordance for instances.
 
 ### 3. Details about the experiment
 
