@@ -65,9 +65,57 @@ two main frameworks for instance segmentation:
 #### Network Structure
 
 <div  align="center">    
-<img src="https://raw.githubusercontent.com/zhixuanli/segmentation-paper-reading-notes/master/images-folder/17-OANet/02.png" width="80%" />
+<img src="https://raw.githubusercontent.com/zhixuanli/segmentation-paper-reading-notes/master/images-folder/17-OANet/02.png" width="100%" />
 </div>
 We employ FPN as the backbone architecture for the end-to-end network.
+
+For instance segmentation, we adopt the original Mask R-CNN as our network framework.  
+
+#### The Stuff Segmentation Branch
+
+<div  align="center">    
+<img src="https://raw.githubusercontent.com/zhixuanli/segmentation-paper-reading-notes/master/images-folder/17-OANet/03.png" width="80%" />
+</div>
+
+
+#### The Instance Segmentation Branch
+<div  align="center">    
+<img src="https://raw.githubusercontent.com/zhixuanli/segmentation-paper-reading-notes/master/images-folder/17-OANet/05.png" width="100%" />
+</div>
+
+#### The loss function
+<div  align="center">    
+<img src="https://raw.githubusercontent.com/zhixuanli/segmentation-paper-reading-notes/master/images-folder/17-OANet/04.png" width="60%" />
+</div>
+
+The first two losses are from the RPN head. $L_{rpn-cls}$ is the RPN objectness loss and $L_{rpn-bbox}$ is the RPN bounding-box loss.
+
+#### Spatial Ranking Module
+##### 1. the heuristic approach
+Using the detection score to sort the instances in descending order, and then assign them to the stuff canvas by the rule of larger score objects on top of lower ones.
+
+<div  align="center">    
+<img src="https://raw.githubusercontent.com/zhixuanli/segmentation-paper-reading-notes/master/images-folder/17-OANet/14.png" width="80%" />
+</div>
+
+However, this heuristic algorithm could easily fail in practice. 
+
+As the person class is more frequent than the tie in the COCO dataset, its detection score is tend to be higher than the tie bounding box. Thus through the above simple rule, the tie instance is covered by the person instance, and leading to the performance drops.
+
+##### 2. What is we alleviate this phenomenon through the panoptic annotation?
+That is if we force the network learns the person annotation with a hole in the place of the tie, could we avoid the above situation?
+
+The answer is no! We'll only find the decayed performance.
+
+<div  align="center">    
+<img src="https://raw.githubusercontent.com/zhixuanli/segmentation-paper-reading-notes/master/images-folder/17-OANet/11.png" width="80%" />
+</div>
+
+Look at the second line.
+
+##### 3. The proposed spatial ranking module
+
+
 
 ### Key Words
 
