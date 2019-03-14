@@ -36,12 +36,26 @@ NO
 #### Network Structure
 
 <div  align="center">    
-<img src="https://raw.githubusercontent.com/zhixuanli/segmentation-paper-reading-notes/master/images-folder/17-OANet/01.png" width="80%" />
+<img src="https://raw.githubusercontent.com/zhixuanli/segmentation-paper-reading-notes/master/images-folder/17-OANet/02.png" width="80%" />
 </div>
 
 ## Note
+**Panoptic segmentation** is the combination of semantic segmentation and instance segmentation.
+
+In this task, the stuff segmentation is employed to predict the amorphous regions (noted ***Stuff*** ), such as sky and grass, while the instance segmentation solves the countable objects (noted ***Thing*** ), such as people and cars.
 
 
+Previous panoptic segmentation algorithms usually contain three separated components: 
+
++ the instance segmentation block
++ the stuff segmentation block
++ the merging block
+
+<div  align="center">    
+<img src="https://raw.githubusercontent.com/zhixuanli/segmentation-paper-reading-notes/master/images-folder/17-OANet/01.png" width="80%" />
+</div>
+
+But this independent way is inefficient.
 
 ### Key Words
 
@@ -50,8 +64,9 @@ NO
 ## Five questions about this paper:
 
 ### 1. [Problem Definition / Motivation] What problem is this paper trying to solve? 
+Traditionally, in panoptic segmentation algorithms, the instance and stuff segmentation blocks are independent without any feature sharing. This results in apparent **computational overhead**.
 
-
+At the merging period, without the context information between the stuff and thing, the merge process will face the challenge of **overlapping relationships** between instances and stuff.
 
 ### 2. [Contribution / Method] What's new in this paper? / How does this paper solve the above problems?
 
