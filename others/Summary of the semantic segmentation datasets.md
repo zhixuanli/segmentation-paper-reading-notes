@@ -85,11 +85,9 @@ The training set $D_{train}$ is composed of all image-mask pairs from PASCAL VOC
 + Paper: [The synthia dataset: A large collection of synthetic images for semantic segmentation of urban scenes](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=2ahUKEwj4uY322ezfAhUJKHwKHRJeD30QFjAAegQIARAC&url=http%3A%2F%2Frefbase.cvc.uab.es%2Ffiles%2FRSM2016.pdf&usg=AOvVaw31lOP8Ts2FzXe0AcGtO6vU)
 + Main Page: [http://synthia-dataset.net/download-2/](http://synthia-dataset.net/download-2/)
 
-> SYNTHIA is a large dataset of photo-realistic frames rendered from a virtual city with precise pixel-level annotations.
+SYNTHIA is a large dataset of photo-realistic frames rendered from a virtual city with precise pixel-level annotations.
 
-
-
-> It is the set containing the original 13,407 images used to perform training and domain adaptation of the models presented in our CVPR’16 paper. These images are generated as random perturbation of the world and therefore do not have temporal consistency (this is not a video stream). These images have annotations for 11 basic classes and do not have annotations for instances. The classes are: void, sky, building, road, sidewalk, fence, vegetation, pole, car, sign, pedestrian, cyclist.
+It is the set containing the original 13,407 images used to perform training and domain adaptation of the models presented in our CVPR’16 paper. These images are generated as random perturbation of the world and therefore do not have temporal consistency (this is not a video stream). These images have annotations for 11 basic classes and do not have annotations for instances. The classes are: void, sky, building, road, sidewalk, fence, vegetation, pole, car, sign, pedestrian, cyclist.
 
 
 
@@ -99,18 +97,21 @@ The training set $D_{train}$ is composed of all image-mask pairs from PASCAL VOC
 + Main Page: [https://download.visinf.tu-darmstadt.de/data/from_games/index.html](https://download.visinf.tu-darmstadt.de/data/from_games/index.html)
 + Code: [https://bitbucket.org/visinf/projects-2016-playing-for-data](https://bitbucket.org/visinf/projects-2016-playing-for-data)
 
->  GTA-5 contains 24966 high quality labeled frames from realistic open-world computer games, Grand Theft Auto V (GTA-5). Each frame is generated from fictional city of Los Santos, based on Los Angeles in Southern California with annotations that are compatible with CITYSCAPES dataset.
+GTA-5 contains 24966 high quality labeled frames from realistic open-world computer games, Grand Theft Auto V (GTA-5). Each frame is generated from fictional city of Los Santos, based on Los Angeles in Southern California with annotations that are compatible with CITYSCAPES dataset.
 
 ## 10. ADE20K
 + Paper: [Scene parsing through ade20k dataset.](http://openaccess.thecvf.com/content_cvpr_2017/papers/Zhou_Scene_Parsing_Through_CVPR_2017_paper.pdf)
 + Main Page: [http://groups.csail.mit.edu/vision/datasets/ADE20K/](http://groups.csail.mit.edu/vision/datasets/ADE20K/)
 + Code: [https://github.com/CSAILVision/semantic-segmentation-pytorch](https://github.com/CSAILVision/semantic-segmentation-pytorch)
 
-> ADE20K is a recent scene parsing benchmark containing dense labels of 150 stuff/object categories. The dataset includes 20K/2K/3K images for training, validation and test.
+ADE20K is a recent scene parsing benchmark containing dense labels of 150 stuff/object categories. The dataset includes 20K/2K/3K images for training, validation and test.
 
 ## 11. COCO panoptic segmentation dataset
-+ [http://cocodataset.org/#panoptic-2018](http://cocodataset.org/#panoptic-2018)
-+ 
++ Main Page: [http://cocodataset.org/#panoptic-2018](http://cocodataset.org/#panoptic-2018)
++ Paper: [Panoptic segmentation](https://arxiv.org/pdf/1801.00868.pdf%3C/p%3E)
+
+This dataset contains 118K images for training, 5k images for validation, with annotations on 80 categories for the thing and 53 classes for stuff.
+
 
 ## ATTENTION
 

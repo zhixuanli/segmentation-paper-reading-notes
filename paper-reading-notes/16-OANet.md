@@ -143,7 +143,12 @@ At the merging period, without the context information between the stuff and thi
 
 
 #### 3.3 What's the evaluation metric?
+Panoptic Quality (PQ):
 
+It contains two factors: 
+
++ 1) the Segmentation Quality (SQ) measures the quality of all categories
++ 2) the Detection Quality (DQ) measures only the instance classes.
 
 
 #### 3.4 Ablation Study
