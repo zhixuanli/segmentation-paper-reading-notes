@@ -114,7 +114,11 @@ The answer is no! We'll only find the decayed performance.
 Look at the second line.
 
 ##### 3. The proposed spatial ranking module
+<div  align="center">    
+<img src="https://raw.githubusercontent.com/zhixuanli/segmentation-paper-reading-notes/master/images-folder/17-OANet/05.png" width="100%" />
+</div>
 
+Use the average prediction probilaty as the ranking score of that class. The range of the average prediction probilaty is the predicted range belongs to that class.
 
 
 ### Key Words
