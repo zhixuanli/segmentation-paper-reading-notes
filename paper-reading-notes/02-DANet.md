@@ -4,7 +4,8 @@
 ## Paper Information
 #### Paper Title : [Dual Attention Network for Scene Segmentation](https://arxiv.org/abs/1809.02983)
 
-#### Conference : AAAI 2019
+#### Conference : 
+CVPR 2019
 
 #### Authors and Institution
 Jun Fu, Jing Liu, Haijie Tian, Zhiwei Fang, Hanqing Lu
