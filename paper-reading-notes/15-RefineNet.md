@@ -38,7 +38,8 @@ CVPR 2017
 <img src="https://raw.githubusercontent.com/zhixuanli/segmentation-paper-reading-notes/master/images-folder/16-RefineNet/03.png" width="80%" />
 </div>
 ## Note
-
+From BiSeNet: 
+RefineNet [18] adds multi-path refinement structure to refine the prediction.
 
 
 ### Key Words

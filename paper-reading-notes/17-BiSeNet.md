@@ -27,12 +27,19 @@ Changqian Yu, Jingbo Wang, Chao Peng, Changxin Gao, Gang Yu, Nong Sang
 #### Network Structure
 
 <div  align="center">    
-<img src="https://raw.githubusercontent.com/zhixuanli/segmentation-paper-reading-notes/master/images-folder/*.png" width="80%" />
+<img src="https://raw.githubusercontent.com/zhixuanli/segmentation-paper-reading-notes/master/images-folder/18-BiSeNet/02.png" width="80%" />
 </div>
 
 ## Note
+There are mainly three approaches to accelerate the model.
+
+1. Use cropping or resizing to restrict the input size, but the loss of spatial details is harmful to performance.
+2. Prune the channels of the network.
+3. ENet [25] proposes to drop the last stage of the model in pursuit of an extremely tight framework.
+	+ With the downsampling operations in the last stage abandoned, the receptive field of the model is not enough to cover large objects.
 
 
+To remedy the loss of spatial details, U-shape structure is utilized widely. But will have extra computation.
 
 ### Key Words
 
@@ -41,12 +48,19 @@ Changqian Yu, Jingbo Wang, Chao Peng, Changxin Gao, Gang Yu, Nong Sang
 ## Five questions about this paper:
 
 ### 1. [Problem Definition / Motivation] What problem is this paper trying to solve? 
++ Large spatial resolution is important for reserving details, but will decrease the inference speed.
++ Large receptive field, which means little spatial resolution, is necessary for semantic inforation.
 
+This is a dilemma.
 
 
 ### 2. [Contribution / Method] What's new in this paper? / How does this paper solve the above problems?
+a novel Bilateral Segmentation Network (BiSeNet):
 
++ Spatial Path: preserve the spatial information with high-resolution features
++ Context Path: sufficient receptive field by fast downsampling
 
+Finnaly use a Feature Fusion Module to merge the features.
 
 ### 3. Details about the experiment
 
