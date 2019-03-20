@@ -66,6 +66,7 @@ Details of the papers are collected in the notes.
 | 14 | Layer Cascade | CVPR 2017 | [Not All Pixels Are Equal: Difficulty-Aware Semantic Segmentation via Deep Layer Cascade](https://arxiv.org/abs/1704.01344) | [14-Layer-Cascade.md](https://github.com/zhixuanli/segmentation-paper-reading-notes/blob/master/paper-reading-notes/14-Layer-Cascade.md) | [Official Code](https://github.com/liuziwei7/region-conv) | 6.5 |
 | 15 | RefineNet | CVPR 2017 | [RefineNet: Multi-Path Refinement Networks for High-Resolution Semantic Segmentation](http://openaccess.thecvf.com/content_cvpr_2017/papers/Lin_RefineNet_Multi-Path_Refinement_CVPR_2017_paper.pdf) | [15-RefineNet.md](https://github.com/zhixuanli/segmentation-paper-reading-notes/blob/master/paper-reading-notes/15-RefineNet.md) | [Official Code](https://github.com/guosheng/refinenet) | 7 |
 | 16 | OANet | CVPR 2019 | [An End-to-End Network for Panoptic Segmentation](https://arxiv.org/abs/1903.05027) | [16-OANet.md](https://github.com/zhixuanli/segmentation-paper-reading-notes/blob/master/paper-reading-notes/16-OANet.md) | NO | 6 |
+| 17 | BiSeNet | ECCV 2018 | [BiSeNet: Bilateral Segmentation Network for Real-time Semantic Segmentation](https://arxiv.org/abs/1808.00897) | [17-BiSeNet.md](https://github.com/zhixuanli/segmentation-paper-reading-notes/blob/master/paper-reading-notes/17-BiSeNet.md) | [Official Code](https://github.com/ycszen/TorchSeg) | * |
 
 ### Medical Segmentation Paper Reading Notes
 Details of the papers are collected in the notes. 
