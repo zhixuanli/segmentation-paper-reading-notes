@@ -38,8 +38,16 @@ There are mainly three approaches to accelerate the model.
 3. ENet [25] proposes to drop the last stage of the model in pursuit of an extremely tight framework.
 	+ With the downsampling operations in the last stage abandoned, the receptive field of the model is not enough to cover large objects.
 
+<div  align="center">    
+<img src="https://raw.githubusercontent.com/zhixuanli/segmentation-paper-reading-notes/master/images-folder/18-BiSeNet/01.png" width="80%" />
+</div>
 
 To remedy the loss of spatial details, U-shape structure is utilized widely. But will have extra computation.
+
+### About BiSeNet
+Spatial path doesn't have a backbone, for reserving the details as much as possible.
+
+Context path has a backbone.
 
 ### Key Words
 
@@ -65,7 +73,9 @@ Finnaly use a Feature Fusion Module to merge the features.
 ### 3. Details about the experiment
 
 #### 3.1 Which Datasets are used?
-
++ Cityscapes
++ CamVid
++ COCO-Stuff
 
 
 #### 3.2 How is the experiment set up?
@@ -73,19 +83,40 @@ Finnaly use a Feature Fusion Module to merge the features.
 
 
 #### 3.3 What's the evaluation metric?
-
+mIoU
 
 
 #### 3.4 Ablation Study
+<div  align="center">    
+<img src="https://raw.githubusercontent.com/zhixuanli/segmentation-paper-reading-notes/master/images-folder/18-BiSeNet/05.png" width="80%" />
+</div>
 
+-----------------------------------------------------
+<div  align="center">   
+<img src="https://raw.githubusercontent.com/zhixuanli/segmentation-paper-reading-notes/master/images-folder/18-BiSeNet/08.png" width="80%" />
+</div>
 
+-----------------------------------------------------
+<div  align="center">    
+<img src="https://raw.githubusercontent.com/zhixuanli/segmentation-paper-reading-notes/master/images-folder/18-BiSeNet/09.png" width="80%" />
+</div>
+
+-----------------------------------------------------
+<div  align="center">    
+<img src="https://raw.githubusercontent.com/zhixuanli/segmentation-paper-reading-notes/master/images-folder/18-BiSeNet/11.png" width="80%" />
+</div>
+
+-----------------------------------------------------
+<div  align="center">    
+<img src="https://raw.githubusercontent.com/zhixuanli/segmentation-paper-reading-notes/master/images-folder/18-BiSeNet/13.png" width="80%" />
+</div>
 
 #### 3.5 What is the ranking of the experiment results?
 
 
 
 ### 4. Advantages (self-summary rather than the author's)
-
+Speed and performance
 
 
 ### 5. Disadvantages (self-summary rather than the author's)
@@ -94,3 +125,4 @@ Finnaly use a Feature Fusion Module to merge the features.
 [https://github.com/CoinCheung/BiSeNet](https://github.com/CoinCheung/BiSeNet)
 
 #### 5.2 
+It looks like an attention based simple version U-Net.
