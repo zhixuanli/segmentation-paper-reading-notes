@@ -1,29 +1,33 @@
 ### The progress of the reading plan: 
-| Index  |  Semantic Seg | All |
+| Index  |  In Other | All |
 | :----: | :-------: | :-------: |
-| 19 | 18 | 50 |
+| 20 | 02 | 50 |
 
 ## Paper Information
 #### Paper Title : 
-[Decoders Matter for Semantic Segmentation: Data-Dependent Decoding Enables Flexible Feature Aggregation](https://arxiv.org/pdf/1903.02120) 
+[Feedback Network for Image Super-Resolution](https://arxiv.org/pdf/1903.09814) 
 
 #### Conference : 
-CVPR 2019
+CVPR 19
 
 #### Authors and Institutions
 ##### Authors
-+ Zhi Tian 1
-+ Tong He 1 
-+ Chunhua Shen 1 
-+ Youliang Yan 2
++ Zhen Li 1 
++ Jinglei Yang 2 
++ Zheng Liu 3 
++ Xiaomin Yang 1 
++ Gwanggil Jeon 4 
++ Wei Wu 1
+
 
 ##### Institutions
-+ 1 The University of Adelaide, Australia 
-+ 2 Noah’s Ark Lab, Huawei Technologies
++ 1 Sichuan University, 
++ 2 University of California, Santa Barbara, 
++ 3 University of British Columbia,+ 4 Incheon National University
 
 
-#### In-official Codes
-[https://github.com/LinZhuoChen/DUpsampling](https://github.com/LinZhuoChen/DUpsampling)
+#### Official Codes
+[https://github.com/Paper99/SRFBN_CVPR19](https://github.com/Paper99/SRFBN_CVPR19)
 
 #### Some articles to comprehend this paper
 
@@ -31,7 +35,7 @@ CVPR 2019
 #### Network Structure
 
 <div  align="center">    
-<img src="https://raw.githubusercontent.com/zhixuanli/segmentation-paper-reading-notes/master/images-folder/19-DUpsampling/02.png" width="80%" />
+<img src="https://raw.githubusercontent.com/zhixuanli/segmentation-paper-reading-notes/master/images-folder/Other-papers/*.png" width="80%" />
 </div>
 
 ## Note
