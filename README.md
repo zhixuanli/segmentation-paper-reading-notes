@@ -69,6 +69,7 @@ Details of the papers are collected in the notes.
 | 15 | RefineNet | CVPR 2017 | [RefineNet: Multi-Path Refinement Networks for High-Resolution Semantic Segmentation](http://openaccess.thecvf.com/content_cvpr_2017/papers/Lin_RefineNet_Multi-Path_Refinement_CVPR_2017_paper.pdf) | [15-RefineNet.md](https://github.com/zhixuanli/segmentation-paper-reading-notes/blob/master/paper-reading-notes/15-RefineNet.md) | [Official Code](https://github.com/guosheng/refinenet) | 7 |
 | 16 | OANet | CVPR 2019 | [An End-to-End Network for Panoptic Segmentation](https://arxiv.org/abs/1903.05027) | [16-OANet.md](https://github.com/zhixuanli/segmentation-paper-reading-notes/blob/master/paper-reading-notes/16-OANet.md) | NO | 6 |
 | 17 | BiSeNet | ECCV 2018 | [BiSeNet: Bilateral Segmentation Network for Real-time Semantic Segmentation](https://arxiv.org/abs/1808.00897) | [17-BiSeNet.md](https://github.com/zhixuanli/segmentation-paper-reading-notes/blob/master/paper-reading-notes/17-BiSeNet.md) | [Official Code](https://github.com/ycszen/TorchSeg) | 2 |
+| 19 | DFANet | CVPR 2019 | [DFANet: Deep Feature Aggregation for Real-Time Semantic Segmentation](https://arxiv.org/abs/1904.02216v1) | [19-DFANet.md](https://github.com/zhixuanli/segmentation-paper-reading-notes/blob/master/paper-reading-notes/19-DFANet.md) | NO | 6 |
 
 ### Medical Segmentation Paper Reading Notes
 Details of the papers are collected in the notes. 
