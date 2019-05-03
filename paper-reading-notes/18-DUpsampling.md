@@ -61,7 +61,7 @@ Vanilla softmax function (looks like just normal softmax) is hard to converge wh
 A parameter named temperature T is used here to sharpen/soften the activation of softmax and makes training converge much faster.
 
 <div  align="center">    
-<img src="https://raw.githubusercontent.com/zhixuanli/segmentation-paper-reading-notes/master/images-folder/19-DUpsampling/11.png" width="80%" />
+<img src="https://raw.githubusercontent.com/zhixuanli/segmentation-paper-reading-notes/master/images-folder/19-DUpsampling/11.png" width="50%" />
 </div>
 
 ### Key Words
@@ -81,27 +81,62 @@ A parameter named temperature T is used here to sharpen/soften the activation of
 ### 3. Details about the experiment
 
 #### 3.1 Which Datasets are used?
-
++ PASCAL VOC
++ PASCAL Context
 
 
 #### 3.2 How is the experiment set up?
-
-
++ ResNet-50 [12] and Xception-65 [6] as our backbone networks
++ “poly” as our learning rate policy
++ **All weights of newly added layers are initialized with Gaussiandistribution of variance 0.01**
 
 #### 3.3 What's the evaluation metric?
-
+mIoU
 
 
 #### 3.4 Ablation Study
++ same encoder
+	+ The encoder yields the final feature maps with the 1/16 or 1/32 size of the original image.
 
+##### 3.4.1 DUpsampling vs. Bilinear
+<div  align="center">    
+<img src="https://raw.githubusercontent.com/zhixuanli/segmentation-paper-reading-notes/master/images-folder/19-DUpsampling/04.png" width="80%" />
+</div>
 
+upper bound: using ground truth labels instead of raw images as the network input.
+
+##### 3.4.2 Flexible aggregation of convolutional features
+<div  align="center">    
+<img src="https://raw.githubusercontent.com/zhixuanli/segmentation-paper-reading-notes/master/images-folder/19-DUpsampling/05.png" width="80%" />
+</div>
+
+Different level features fusing gain different results.
+
+<div  align="center">    
+<img src="https://raw.githubusercontent.com/zhixuanli/segmentation-paper-reading-notes/master/images-folder/19-DUpsampling/07.png" width="80%" />
+</div>
+
+##### 3.4.3 Impact of adaptive-temperature softmax
+<div  align="center">    
+<img src="https://raw.githubusercontent.com/zhixuanli/segmentation-paper-reading-notes/master/images-folder/19-DUpsampling/08.png" width="80%" />
+</div>
+
+AMAZING!!!
 
 #### 3.5 What is the ranking of the experiment results?
+<div  align="center">    
+<img src="https://raw.githubusercontent.com/zhixuanli/segmentation-paper-reading-notes/master/images-folder/19-DUpsampling/09.png" width="80%" />
+</div>
 
-
+<div  align="center">    
+<img src="https://raw.githubusercontent.com/zhixuanli/segmentation-paper-reading-notes/master/images-folder/19-DUpsampling/10.png" width="80%" />
+</div>
 
 ### 4. Advantages (self-summary rather than the author's)
-
-
++ Much more reasonable and convictive than bilinear.
++ The adaptive-temperature softmax converge faster than vanilla softmax!
 
 ### 5. Disadvantages (self-summary rather than the author's)
+The reconstruction process of low-resolution features to prediction may be not same to the process between low and high resolution gt labels.
+
+So, maybe DUpsampling is not the premium solution.
