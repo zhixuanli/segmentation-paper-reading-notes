@@ -86,4 +86,4 @@ Details of the papers are collected in the notes.
 
 | Index  |  Net Name | Conference | Papers Title | Note Links | Code | My Rating |
 | :----: | :-------: | :--------: | :----------: | :--------: | :--: | :-------: |
-| 01 |  |  | []() | [](https://github.com/zhixuanli/segmentation-paper-reading-notes/blob/master/paper-reading-notes/Other-Related-Papers-Reading-Notes/01-DeepLabV3%2B.md) | [Official Code]() | * |
+| 01 | CASENet | CVPR 2017 | [CASENet: Deep Category-Aware Semantic Edge Detection](http://openaccess.thecvf.com/content_cvpr_2017/papers/Yu_CASENet_Deep_Category-Aware_CVPR_2017_paper.pdf) | [](https://github.com/zhixuanli/segmentation-paper-reading-notes/blob/master/paper-reading-notes/Other-Related-Papers-Reading-Notes/23-CASENet.md) | [Inofficial Code](https://github.com/lijiaman/CASENet) | * |
