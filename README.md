@@ -87,3 +87,4 @@ Details of the papers are collected in the notes.
 | Index  |  Net Name | Conference | Papers Title | Note Links | Code | My Rating |
 | :----: | :-------: | :--------: | :----------: | :--------: | :--: | :-------: |
 | 01 | CASENet | CVPR 2017 | [CASENet: Deep Category-Aware Semantic Edge Detection](http://openaccess.thecvf.com/content_cvpr_2017/papers/Yu_CASENet_Deep_Category-Aware_CVPR_2017_paper.pdf) | [23-CASENet.md](https://github.com/zhixuanli/segmentation-paper-reading-notes/blob/master/paper-reading-notes/Other-Related-Papers-Reading-Notes/23-CASENet.md) | [Official Code](http://www.merl.com/research/license#CASENet) | 2 |
+| 02 | SRFBN | CVPR 2019 | [Feedback Network for Image Super-Resolution](https://arxiv.org/pdf/1903.09814)  | [02-SRFBN.md](https://github.com/zhixuanli/segmentation-paper-reading-notes/blob/master/paper-reading-notes/Other-Related-Papers-Reading-Notes/02-SRFBN.md) | [Official Code](https://github.com/Paper99/SRFBN_CVPR19) | 7 |
