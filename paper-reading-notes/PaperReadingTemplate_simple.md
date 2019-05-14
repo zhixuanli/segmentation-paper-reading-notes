@@ -20,7 +20,9 @@
 
 ## Note
 ### Baseline Paper and network
-
+<div  align="center">    
+<img src="https://raw.githubusercontent.com/zhixuanli/segmentation-paper-reading-notes/master/images-folder/*.png" width="80%" />
+</div>
 
 ### Improvement
 
