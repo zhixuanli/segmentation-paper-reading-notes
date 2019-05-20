@@ -1,7 +1,7 @@
 ### The progress of the reading plan: 
 | Index  |  All |
 | :----: | :--: |
-| 14 | 50 |
+| 25 | 50 |
 
 ## Paper Information
 #### Paper Title : 
@@ -35,7 +35,7 @@ First have a look at the improvement after knowledge distillation.
 </div>
 
 <div  align="center">    
-<img src="https://raw.githubusercontent.com/zhixuanli/segmentation-paper-reading-notes/master/images-folder/25-Knowledge-Dislillation-cvpr19/01.png" width="60%" />
+<img src="https://raw.githubusercontent.com/zhixuanli/segmentation-paper-reading-notes/master/images-folder/25-Knowledge-Dislillation-cvpr19/02.png" width="60%" />
 </div>
 
 Knowledge distillation tries to use a cumbersome (complex, such as PSPNet) segmentation network T as a teacher to teach the learning process of a compact (lightweight, such as mobilenet) segmentation network S (student).
