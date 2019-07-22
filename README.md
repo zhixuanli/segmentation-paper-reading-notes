@@ -72,6 +72,7 @@ Details of the papers are collected in the notes.
 | 18 | DUpsampling | CVPR 2019 | [Decoders Matter for Semantic Segmentation: Data-Dependent Decoding Enables Flexible Feature Aggregation](https://arxiv.org/pdf/1903.02120) | [18-DUpsampling.md](https://github.com/zhixuanli/segmentation-paper-reading-notes/blob/master/paper-reading-notes/18-DUpsampling.md) | NO | 4 |
 | 19 | DFANet | CVPR 2019 | [DFANet: Deep Feature Aggregation for Real-Time Semantic Segmentation](https://arxiv.org/abs/1904.02216v1) | [19-DFANet.md](https://github.com/zhixuanli/segmentation-paper-reading-notes/blob/master/paper-reading-notes/19-DFANet.md) | NO | 6 |
 | 20 | Knowledge Distillation | CVPR 2019 | [Structured Knowledge Distillation for Semantic Segmentation](https://arxiv.org/abs/1903.04197) | [NOTE](https://github.com/zhixuanli/segmentation-paper-reading-notes/blob/master/paper-reading-notes/25-Knowledge-Dislillation-cvpr19.md) | NO | \ |
+| 22 | GLNET | CVPR 19 Oral | [Collaborative Global-Local Networks for Memory-Efficient Segmentation of Ultra-High Resolution Images](https://arxiv.org/abs/1905.06368) | [NOTE](https://github.com/zhixuanli/segmentation-paper-reading-notes/blob/master/paper-reading-notes/27-GLNET.md) | [Official Code](https://github.com/chenwydj/ultra_high_resolution_segmentation) | 8 |
 
 ### Medical Segmentation Paper Reading Notes
 Details of the papers are collected in the notes. 
