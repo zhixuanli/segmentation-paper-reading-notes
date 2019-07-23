@@ -73,6 +73,7 @@ Details of the papers are collected in the notes.
 | 19 | DFANet | CVPR 2019 | [DFANet: Deep Feature Aggregation for Real-Time Semantic Segmentation](https://arxiv.org/abs/1904.02216v1) | [19-DFANet.md](https://github.com/zhixuanli/segmentation-paper-reading-notes/blob/master/paper-reading-notes/19-DFANet.md) | NO | 6 |
 | 20 | Knowledge Distillation | CVPR 2019 | [Structured Knowledge Distillation for Semantic Segmentation](https://arxiv.org/abs/1903.04197) | [NOTE](https://github.com/zhixuanli/segmentation-paper-reading-notes/blob/master/paper-reading-notes/25-Knowledge-Dislillation-cvpr19.md) | NO | \ |
 | 22 | GLNET | CVPR 19 Oral | [Collaborative Global-Local Networks for Memory-Efficient Segmentation of Ultra-High Resolution Images](https://arxiv.org/abs/1905.06368) | [NOTE](https://github.com/zhixuanli/segmentation-paper-reading-notes/blob/master/paper-reading-notes/27-GLNET.md) | [Official Code](https://github.com/chenwydj/ultra_high_resolution_segmentation) | 8 |
+| 23 | Accel | CVPR 19 Oral | [Accel: A Corrective Fusion Network for Efficient Semantic Segmentation on Video](http://www.samvitjain.com/accel/) | [NOTE](https://github.com/zhixuanli/segmentation-paper-reading-notes/blob/master/paper-reading-notes/28-Accel.md) | [Official Code](https://github.com/SamvitJ/Accel) | 3 |
 
 ### Medical Segmentation Paper Reading Notes
 Details of the papers are collected in the notes. 
