@@ -1,25 +1,23 @@
 ### The progress of the reading plan: 
 | Index  |  All |
 | :----: | :--: |
-| 27 | 50 |
+| 28 | 50 |
 
 ## Paper Information
 #### Paper Title : 
-[]() 
+[Accel: A Corrective Fusion Network for Efficient Semantic Segmentation on Video]()
 
 #### Conference : 
-
-
-
+CVPR 2019 Oral
 
 #### Authors and Institutions
 ##### Authors
-
-
++ Samvit Jain 
++ Xin Wang 
++ Joseph E. Gonzalez
 
 ##### Institutions
-
-
+University of California, Berkeley
 
 #### Official Codes
 
